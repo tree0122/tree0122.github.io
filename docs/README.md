@@ -19,6 +19,33 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 MIT Licensed | Copyright © 2018-present [Evan You](https://github.com/tree0122)
 :::
 
-# code
-## ngnix
-## java
+# 像1 2 3一样容易
+```
+# 安装
+yarn global add vuepress # 或者：npm install -g vuepress
+
+# 新建一个 markdown 文件
+echo '# Hello VuePress!' > README.md
+
+# 开始写作
+vuepress dev .
+
+# 构建静态文件
+vuepress build .
+```
+
+::: tip
+这是一个提示
+:::
+
+::: warning
+这是一个警告
+:::
+
+::: danger
+这是一个危险警告
+:::
+
+::: details
+这是一个详情块，在 IE / Edge 中不生效
+:::
