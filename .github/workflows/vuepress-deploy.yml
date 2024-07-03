@@ -13,7 +13,7 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: tree0122/tree0122.github.io
         TARGET_BRANCH: main
-        # BUILD_SCRIPT: yarn && yarn docs:build
-        BUILD_SCRIPT: sh deploy.sh
+        BUILD_SCRIPT: yarn && yarn docs:build
+        # BUILD_SCRIPT: sh deploy.sh
         BUILD_DIR: docs/.vuepress/dist
         # CNAME: https://www.xxx.com
