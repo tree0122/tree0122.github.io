@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>location</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.8f3dca9f.css" as="style"><link rel="preload" href="/assets/js/app.f3ef4e7f.js" as="script"><link rel="preload" href="/assets/js/2.778bb4ad.js" as="script"><link rel="preload" href="/assets/js/1.f8bb34da.js" as="script"><link rel="preload" href="/assets/js/23.bf152fd4.js" as="script"><link rel="prefetch" href="/assets/js/10.fde088a2.js"><link rel="prefetch" href="/assets/js/11.c62b6b34.js"><link rel="prefetch" href="/assets/js/12.27d4f152.js"><link rel="prefetch" href="/assets/js/13.3f3f6a36.js"><link rel="prefetch" href="/assets/js/14.eb7a3d07.js"><link rel="prefetch" href="/assets/js/15.114dfd5c.js"><link rel="prefetch" href="/assets/js/16.85253907.js"><link rel="prefetch" href="/assets/js/17.c2838453.js"><link rel="prefetch" href="/assets/js/18.3256f17f.js"><link rel="prefetch" href="/assets/js/19.d8afd0ae.js"><link rel="prefetch" href="/assets/js/20.0d880388.js"><link rel="prefetch" href="/assets/js/21.33b300c9.js"><link rel="prefetch" href="/assets/js/22.dbb6c24d.js"><link rel="prefetch" href="/assets/js/3.af33e5d6.js"><link rel="prefetch" href="/assets/js/4.45665f8a.js"><link rel="prefetch" href="/assets/js/5.7098d77a.js"><link rel="prefetch" href="/assets/js/6.0c0a0f39.js"><link rel="prefetch" href="/assets/js/7.6a854e57.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.5e19b665.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.8f3dca9f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>location</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="location"><a href="#location" class="header-anchor">#</a> location</h1> <div class="language- extra-class"><pre class="language-text"><code>Syntax: location [ = | ~ | ~* | ^~ ] uri { ... }
+  location @name { ... }
+Default: —
+Context: server, location
+</code></pre></div><p>优先级:</p> <ol><li>精确匹配(=)</li> <li>特殊的最长前缀匹配(^~)</li> <li>正则首次匹配（~*, ~）</li> <li>最长前缀匹配</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code>location <span class="token operator">=</span> / <span class="token punctuation">{</span>
+ <span class="token punctuation">[</span> configuration A <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+location / <span class="token punctuation">{</span>
+ <span class="token punctuation">[</span> configuration B <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+location /documents/ <span class="token punctuation">{</span>
+ <span class="token punctuation">[</span> configuration C <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+location ^~ /images/ <span class="token punctuation">{</span>
+ <span class="token punctuation">[</span> configuration D <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+
+location ~* <span class="token punctuation">\</span>.<span class="token punctuation">(</span>gif<span class="token operator">|</span>jpg<span class="token operator">|</span>jpeg<span class="token punctuation">)</span>$ <span class="token punctuation">{</span>
+ <span class="token punctuation">[</span> configuration E <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>/，匹配 A</li> <li>/index.html，匹配B</li> <li>/documents/document.html，匹配C</li> <li>/images/1.gif，匹配D</li> <li>/documents/1.jpg 匹配E</li></ul> <p>以字符(/)结尾的loation，且有proxy_pass，需注意：</p> <ol><li>请求未以字符(/)结尾，除此外精确匹配uri，本次请求将301永久重定向到此uri(带/结尾的uri)</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code>location /user/ <span class="token punctuation">{</span>
+ proxy_pass http://user.example.com<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ul><li>/user, 重定向 /user/</li></ul> <h1 id="proxy-pass"><a href="#proxy-pass" class="header-anchor">#</a> proxy_pass</h1> <div class="language- extra-class"><pre class="language-text"><code>Syntax: proxy_pass URL;
+Default: —
+Context: location, if in location, limit_except
+</code></pre></div><blockquote><p>URL 包括协议(http、https)，地址(ip、域名 或者 端口)，或者 uri
+server group的优先级高于域名</p></blockquote> <ul><li>proxy_pass有uri，匹配的uri完全被替换，使用URL的uri访问服务器</li> <li>proxy_pass无uri，使用配匹的uri访问服务器</li> <li>正则匹配的location，proxy_pass不能有uri</li></ul> <h1 id="rewrite"><a href="#rewrite" class="header-anchor">#</a> rewrite</h1> <div class="language- extra-class"><pre class="language-text"><code>Syntax: rewrite regex replacement [flag];
+Default: —
+Context: server, location, if
+</code></pre></div><blockquote><p>rewrite指令，按其在config中的位置，顺序执行，直到遇到特定的flag。
+如果replacement 是以 http,https,$scheme开头，则停止且重定向给client
+可选参数flag的值：</p></blockquote> <ol><li>last，停止当前的ngx_http_rewrite_module指令集，开始新的location匹配</li> <li>break，停止当前的ngx_http_rewrite_module指令集，以break指令的方式（location中继续执行非此指令集）</li> <li>redirect，302的临时重定向，用于 replacement 不以http、https、$scheme开头</li> <li>permanent，301的永久重定向</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.f3ef4e7f.js" defer></script><script src="/assets/js/2.778bb4ad.js" defer></script><script src="/assets/js/1.f8bb34da.js" defer></script><script src="/assets/js/23.bf152fd4.js" defer></script>
+  </body>
+</html>
