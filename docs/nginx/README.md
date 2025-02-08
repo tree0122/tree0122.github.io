@@ -72,3 +72,7 @@ Context: server, location, if
 2. break，停止当前的ngx_http_rewrite_module指令集，以break指令的方式（location中继续执行非此指令集）
 3. redirect，302的临时重定向，用于 replacement 不以http、https、$scheme开头
 4. permanent，301的永久重定向
+
+
+
+[](https://v16m-default.akamaized.net/276f353e8102c02b9ecc107dddfffce0/66887c0d/video/tos/alisg/tos-alisg-v-0051c001-sg/oE0D2EADgVcB3nrFf5mNBhAuImd8fbIjuxHbRQ/?a=0&bti=cmd5ZGgxZGZiZmIrY2E6&ch=0&cr=0&dr=0&er=0&lr=default&cd=0%7C0%7C0%7C0&br=1934&bt=967&cs=0&ds=3&ft=.cwOVInz7ThUyHPrXq8Zmo&mime_type=video_mp4&qs=13&rc=M2RpcXE5cnZoczMzODYzNEBpM2RpcXE5cnZoczMzODYzNEBkX2c2MmRjZ2tgLS1kMC1zYSNkX2c2MmRjZ2tgLS1kMC1zcw%3D%3D&vvpl=1&l=20240705165811902A76B3EBB87035DF7D&btag=e00060000)
