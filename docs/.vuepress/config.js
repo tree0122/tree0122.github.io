@@ -1,9 +1,12 @@
 // .vuepress/config.js
 module.exports = {
+  title: 'footprint',
+  head: [
+    ['link', { rel: 'icon', href: '/hero.png' }],
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated', // string | boolean
     nav: [
-      { text: '首页', link: '/' },
       {
         text: '后端',
         items: [
@@ -20,6 +23,7 @@ module.exports = {
             items: [
               { text: '数据库', link: '/db/' },
               { text: 'MQ', link: '/mq/' },
+              { text: '算法', link: '/algorithm/' },
             ]
           },
         ]
@@ -34,7 +38,7 @@ module.exports = {
               { text: 'css', link: '/css' },
             ]
           },
-          { text: '框架', items: [{ text: 'vue', link: '/vue/' },] }
+          { text: '框架', items: [{ text: 'vue', link: '/front/vue/' },] }
         ]
       },
       {
@@ -45,6 +49,7 @@ module.exports = {
           { text: '云原生', link: '/cloud/' },
         ],
       },
+      { text: 'AI', link: '/ai/' },
       { text: 'Github', link: 'https://github.com/tree0122/tree0122.github.io' },
     ]
   }
