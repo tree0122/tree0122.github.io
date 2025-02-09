@@ -34,9 +34,9 @@ module.exports = {
           {
             text: '基础',
             items: [
-              { text: 'front', link: '/front' },
-              { text: 'h5', link: '/h5' },
-              { text: 'css', link: '/css' },
+              { text: 'front', link: '/front/' },
+              { text: 'h5', link: '/h5/' },
+              { text: 'css', link: '/css/' },
             ]
           },
           { text: '框架', items: [{ text: 'vue', link: '/front/vue/' },] },
