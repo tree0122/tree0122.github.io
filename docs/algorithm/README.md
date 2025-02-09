@@ -35,4 +35,4 @@ sidebar: auto
 ## leetcode算法题解
 
 **参考**
-- [leetcode](https://leetcode.cn/)
+1. [leetcode](https://leetcode.cn/)
