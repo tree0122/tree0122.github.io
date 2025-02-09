@@ -34,11 +34,12 @@ module.exports = {
           {
             text: '基础',
             items: [
+              { text: 'front', link: '/front' },
               { text: 'h5', link: '/h5' },
               { text: 'css', link: '/css' },
             ]
           },
-          { text: '框架', items: [{ text: 'vue', link: '/front/vue/' },] }
+          { text: '框架', items: [{ text: 'vue', link: '/front/vue/' },] },
         ]
       },
       {
@@ -50,6 +51,7 @@ module.exports = {
         ],
       },
       { text: 'AI', link: '/ai/' },
+      { text: 'awe', link: '/awe/' },
       { text: 'Github', link: 'https://github.com/tree0122/tree0122.github.io' },
     ]
   }
