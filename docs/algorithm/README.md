@@ -30,6 +30,7 @@ sidebar: auto
 2. 滑动窗口
 3. 单调栈
 4. 二叉树
+   - [morris遍历](./zuochengyun/morris.md)
 5. 动态规划
 
 ## leetcode算法题解
