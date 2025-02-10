@@ -34,6 +34,8 @@ sidebar: auto
 5. 动态规划
 
 ## leetcode算法题解
+1. [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md)
 
 **参考**
 1. [leetcode](https://leetcode.cn/)
+2. [itcharge](https://algo.itcharge.cn/)：算法通关手册（LeetCode）
