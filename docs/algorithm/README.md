@@ -31,6 +31,7 @@ sidebar: auto
 3. 单调栈
 4. 二叉树
    - [morris遍历](./zuochengyun/morris.md)
+   - [building outline](./zuochengyun/buildingOutline.md)
 5. 动态规划
 
 ## leetcode算法题解
