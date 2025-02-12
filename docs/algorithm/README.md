@@ -20,6 +20,7 @@ sidebar: auto
 3. 堆栈
 4. 链表
 5. 树
+   - [最大搜索二叉子树](./zuochengyun/maxBST.md)
 6. 哈希
 7. 贪心
 8. 回溯
