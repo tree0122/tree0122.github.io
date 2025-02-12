@@ -21,6 +21,7 @@ sidebar: auto
 4. 链表
 5. 树
    - [最大搜索二叉子树](./zuochengyun/maxBST.md)
+   - [树中最远距离](./zuochengyun/maxDistance.md)
 6. 哈希
 7. 贪心
 8. 回溯
