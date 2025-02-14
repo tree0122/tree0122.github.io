@@ -35,6 +35,9 @@ sidebar: auto
    - [building outline](./zuochengyun/buildingOutline.md)
    - [最大搜索二叉子树](./zuochengyun/maxBST.md)
    - [maxHappy](./zuochengyun/maxHappy.md)
+   - [isBalancedTree](./zuochengyun/isBalancedTree.md)
+   - [isSearchTree](./zuochengyun/isSearchTree.md)
+   - [isCompleteTree](./zuochengyun/isCompleteTree.md)
   
 5. 动态规划
    - [MostEor](./zuochengyun/buildingOutline.md)
