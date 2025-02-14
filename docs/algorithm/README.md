@@ -40,7 +40,8 @@ sidebar: auto
    - [isCompleteTree](./zuochengyun/isCompleteTree.md)
   
 5. 动态规划
-   - [MostEor](./zuochengyun/buildingOutline.md)
+   - [MostEor](./zuochengyun/mostEor.md)
+   - [换钱的方法数](./zuochengyun/CoinWays.md)
 6. 回溯
    - [ExpressionCompute](./zuochengyun/ExpressionCompute.md)
 7. 其他
