@@ -20,12 +20,10 @@ sidebar: auto
 3. 堆栈
 4. 链表
 5. 树
-   - [最大搜索二叉子树](./zuochengyun/maxBST.md)
-   - [树中最远距离](./zuochengyun/maxDistance.md)
 6. 哈希
 7. 贪心
 8. 回溯
-9.  动态规划
+9. 动态规划
 
 ### 中级
 1. KMP
@@ -35,9 +33,13 @@ sidebar: auto
 4. 二叉树
    - [morris遍历](./zuochengyun/morris.md)
    - [building outline](./zuochengyun/buildingOutline.md)
-   - [MostEor](./zuochengyun/buildingOutline.md)
+   - [最大搜索二叉子树](./zuochengyun/maxBST.md)
+   - [maxHappy](./zuochengyun/maxHappy.md)
   
 5. 动态规划
+   - [MostEor](./zuochengyun/buildingOutline.md)
+6. 其他
+   - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
 
 ## leetcode算法题解
 1. [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md)
