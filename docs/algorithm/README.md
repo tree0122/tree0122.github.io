@@ -8,14 +8,14 @@ sidebar: auto
 ### 初级
 1. 复杂度
    - [认识时间复杂度](./zuochengyun/complexity)
-
+  
 2. 排序
    - [冒泡](./zuochengyun/bubble)
    - [选择](./zuochengyun/select)
    - [插入](./zuochengyun/insert)
    - [归并](./zuochengyun/merge)
    - [快排](./zuochengyun/quick)
-   - [堆排](./zuochengyun/heap)
+   - [堆排](./zuochengyun/heap) 
    
 3. 堆栈
 4. 链表
@@ -42,8 +42,10 @@ sidebar: auto
 5. 动态规划
    - [MostEor](./zuochengyun/mostEor.md)
    - [换钱的方法数](./zuochengyun/CoinWays.md)
+
 6. 回溯
    - [ExpressionCompute](./zuochengyun/ExpressionCompute.md)
+
 7. 其他
    - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
 
