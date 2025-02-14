@@ -41,7 +41,9 @@ sidebar: auto
   
 5. 动态规划
    - [MostEor](./zuochengyun/buildingOutline.md)
-6. 其他
+6. 回溯
+   - [ExpressionCompute](./zuochengyun/ExpressionCompute.md)
+7. 其他
    - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
 
 ## leetcode算法题解
