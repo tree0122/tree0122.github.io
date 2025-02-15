@@ -5,7 +5,7 @@
 
 ## 代码
 ```java
-public class longestSubarraySum {
+public class LongestSubarraySum {
 
     public int maxLenSubarraySum(int[] positiveArray, int t) {
         int len = 0;
