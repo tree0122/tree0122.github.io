@@ -50,6 +50,7 @@ sidebar: auto
 7. 其他
    - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
    - [累加和为aim的最长子数组](./zuochengyun/longestSubarraySum.md)
+   - [累加和小于aim的最长子数组](./zuochengyun/longestSubarrayLessSum.md)
 
 ## leetcode算法题解
 1. [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md)
