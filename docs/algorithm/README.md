@@ -41,11 +41,11 @@ sidebar: auto
   
 5. 动态规划
    - [MostEor](./zuochengyun/mostEor.md)
-   - [换钱的方法数](./zuochengyun/CoinWays.md)
+   - [换钱的方法数](./zuochengyun/coinWays.md)
    - [换钱的最少钱张](./zuochengyun/CoinWays.md)
 
 6. 回溯
-   - [ExpressionCompute](./zuochengyun/ExpressionCompute.md)
+   - [ExpressionCompute](./zuochengyun/expressionCompute.md)
 
 7. 其他
    - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
