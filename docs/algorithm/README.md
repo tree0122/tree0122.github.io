@@ -16,7 +16,7 @@ sidebar: auto
    - [归并](./zuochengyun/merge)
    - [快排](./zuochengyun/quick)
    - [堆排](./zuochengyun/heap) 
-   
+
 3. 堆栈
 4. 链表
 5. 树
@@ -42,6 +42,7 @@ sidebar: auto
 5. 动态规划
    - [MostEor](./zuochengyun/mostEor.md)
    - [换钱的方法数](./zuochengyun/CoinWays.md)
+   - [换钱的最少钱张](./zuochengyun/CoinWays.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/ExpressionCompute.md)
