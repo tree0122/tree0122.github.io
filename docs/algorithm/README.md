@@ -50,6 +50,7 @@ sidebar: auto
    - [最长公共子串问题](./zuochengyun/longestCommonSubstr.md)
    - [最小编辑代价](./zuochengyun/leastEditCost.md)
    - [回文最小分割数](./zuochengyun/smallestCut.md)
+   - [字符串的交错组成](./zuochengyun/intersectCompose.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
