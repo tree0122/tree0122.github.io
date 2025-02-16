@@ -43,6 +43,7 @@ sidebar: auto
    - [MostEor](./zuochengyun/mostEor.md)
    - [换钱的方法数](./zuochengyun/coinWays.md)
    - [换钱的最少钱张](./zuochengyun/coinCountMin.md)
+   - [regularExpression](./zuochengyun/regularExpression.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
