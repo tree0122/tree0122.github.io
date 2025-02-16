@@ -45,6 +45,7 @@ sidebar: auto
    - [换钱的最少钱张](./zuochengyun/coinCountMin.md)
    - [regularExpression](./zuochengyun/regularExpression.md)
    - [矩阵的最小路径和](./zuochengyun/smallPath.md)
+   - [矩阵的最小路径和](./zuochengyun/longestIncreaseSubsequence.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
