@@ -48,6 +48,7 @@ sidebar: auto
    - [最长递增子序列](./zuochengyun/longestIncreaseSubsequence.md)
    - [最长公共子序列问题](./zuochengyun/longestCommonSubsequence.md)
    - [最长公共子串问题](./zuochengyun/longestCommonSubstr.md)
+   - [最小编辑代价](./zuochengyun/leastEditCost.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
