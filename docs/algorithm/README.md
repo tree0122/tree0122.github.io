@@ -51,6 +51,7 @@ sidebar: auto
    - [最小编辑代价](./zuochengyun/leastEditCost.md)
    - [回文最小分割数](./zuochengyun/smallestCut.md)
    - [字符串的交错组成](./zuochengyun/intersectCompose.md)
+   - [括号问题](./zuochengyun/validMaxLen.md)
 
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
