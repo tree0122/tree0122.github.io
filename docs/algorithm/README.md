@@ -56,7 +56,10 @@ sidebar: auto
 6. 回溯
    - [ExpressionCompute](./zuochengyun/expressionCompute.md)
 
-7. 其他
+7. 贪心
+   - [两个有序数组间相加和的TOP K问题](./zuochengyun/topKOfArraySum.md)
+  
+8. 其他
    - [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
    - [累加和为aim的最长子数组](./zuochengyun/longestSubarraySum.md)
    - [累加和小于aim的最长子数组](./zuochengyun/longestSubarrayLessSum.md)
