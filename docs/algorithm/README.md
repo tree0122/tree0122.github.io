@@ -30,6 +30,7 @@ sidebar: auto
   1. [KMP算法详情与应用](./zuochengyun/kmp.md)
   2. [s是否仅能由一个子串组成](./zuochengyun/madeOfOneSubstr.md)
   3. [合并后的字符串包含两个s](./zuochengyun/suppleString.md)
+  4. [T2是不是T1的子树](./zuochengyun/isSubtree.md)
    
 - 滑动窗口
 - 单调栈
