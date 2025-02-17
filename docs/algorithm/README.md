@@ -27,17 +27,18 @@ sidebar: auto
 
 ### 中级
 - KMP
+  1. [KMP算法详情与应用](./zuochengyun/kmp.md)
    
 - 滑动窗口
 - 单调栈
 - 二叉树
    1. [morris遍历](./zuochengyun/morris.md)
-   1. [building outline](./zuochengyun/buildingOutline.md)
-   1. [最大搜索二叉子树](./zuochengyun/maxBST.md)
-   1. [maxHappy](./zuochengyun/maxHappy.md)
-   1. [isBalancedTree](./zuochengyun/isBalancedTree.md)
-   1. [isSearchTree](./zuochengyun/isSearchTree.md)
-   1. [isCompleteTree](./zuochengyun/isCompleteTree.md)
+   2. [building outline](./zuochengyun/buildingOutline.md)
+   3. [最大搜索二叉子树](./zuochengyun/maxBST.md)
+   4. [maxHappy](./zuochengyun/maxHappy.md)
+   5. [isBalancedTree](./zuochengyun/isBalancedTree.md)
+   6. [isSearchTree](./zuochengyun/isSearchTree.md)
+   7. [isCompleteTree](./zuochengyun/isCompleteTree.md)
   
 - 动态规划
    1. [MostEor](./zuochengyun/mostEor.md)
