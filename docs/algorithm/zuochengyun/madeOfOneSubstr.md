@@ -9,7 +9,7 @@ public class MadeOfOneSubstr {
 
     public boolean madeOfOneSubstr(String s) {
         int[] a = new int[s.length() + 1];
-        for (int i = 2, cn = 0; i < s.length(); ) {
+        for (int i = 2, cn = 0; i <= s.length(); ) {
             if (s.charAt(i - 1) == s.charAt(cn)) {
                 a[i++] = ++cn;
             } else if (cn > 0) {
