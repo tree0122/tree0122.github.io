@@ -68,6 +68,7 @@ sidebar: auto
    2. [累加和为aim的最长子数组](./zuochengyun/longestSubarraySum.md)
    3. [累加和小于aim的最长子数组](./zuochengyun/longestSubarrayLessSum.md)
    4. [最长回文子串](./zuochengyun/manacher.md)
+   5. [使字符串变为回文串所需最小字符串](./zuochengyun/shortestEndByManacher.md)
 
 ## leetcode算法题解
 1. [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md)
