@@ -18,7 +18,7 @@ public class MadeOfOneSubstr {
                 i++;
             }
         }
-        return s.length() % (s.length() - a[s.length()]) == 0;
+        return a[s.length()] != 0 &&  s.length() % (s.length() - a[s.length()]) == 0;
     }
 
 }
