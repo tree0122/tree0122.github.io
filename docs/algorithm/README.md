@@ -11,11 +11,11 @@ sidebar: auto
   
 - 排序
    1. [冒泡](./zuochengyun/bubble)
-   1. [选择](./zuochengyun/select)
-   1. [插入](./zuochengyun/insert)
-   1. [归并](./zuochengyun/merge)
-   1. [快排](./zuochengyun/quick)
-   1. [堆排](./zuochengyun/heap) 
+   2. [选择](./zuochengyun/select)
+   3. [插入](./zuochengyun/insert)
+   4. [归并](./zuochengyun/merge)
+   5. [快排](./zuochengyun/quick)
+   6. [堆排](./zuochengyun/heap) 
 
 - 堆栈
 - 链表
@@ -45,17 +45,17 @@ sidebar: auto
   
 - 动态规划
    1. [MostEor](./zuochengyun/mostEor.md)
-   1. [换钱的方法数](./zuochengyun/coinWays.md)
-   1. [换钱的最少钱张](./zuochengyun/coinCountMin.md)
-   1. [regularExpression](./zuochengyun/regularExpression.md)
-   1. [矩阵的最小路径和](./zuochengyun/smallPath.md)
-   1. [最长递增子序列](./zuochengyun/longestIncreaseSubsequence.md)
-   1. [最长公共子序列问题](./zuochengyun/longestCommonSubsequence.md)
-   1. [最长公共子串问题](./zuochengyun/longestCommonSubstr.md)
-   1. [最小编辑代价](./zuochengyun/leastEditCost.md)
-   1. [回文最小分割数](./zuochengyun/smallestCut.md)
-   1. [字符串的交错组成](./zuochengyun/intersectCompose.md)
-   1. [括号问题](./zuochengyun/validMaxLen.md)
+   2. [换钱的方法数](./zuochengyun/coinWays.md)
+   3. [换钱的最少钱张](./zuochengyun/coinCountMin.md)
+   4. [regularExpression](./zuochengyun/regularExpression.md)
+   5. [矩阵的最小路径和](./zuochengyun/smallPath.md)
+   6. [最长递增子序列](./zuochengyun/longestIncreaseSubsequence.md)
+   7. [最长公共子序列问题](./zuochengyun/longestCommonSubsequence.md)
+   8. [最长公共子串问题](./zuochengyun/longestCommonSubstr.md)
+   9.  [最小编辑代价](./zuochengyun/leastEditCost.md)
+   10. [回文最小分割数](./zuochengyun/smallestCut.md)
+   11. [字符串的交错组成](./zuochengyun/intersectCompose.md)
+   12. [括号问题](./zuochengyun/validMaxLen.md)
 
 - 回溯
    1. [ExpressionCompute](./zuochengyun/expressionCompute.md)
@@ -65,8 +65,8 @@ sidebar: auto
   
 - 其他
    1. [奇数、偶数个数相等的最长子数组](./zuochengyun/longestSubarrayOfEqualParity.md)
-   1. [累加和为aim的最长子数组](./zuochengyun/longestSubarraySum.md)
-   1. [累加和小于aim的最长子数组](./zuochengyun/longestSubarrayLessSum.md)
+   2. [累加和为aim的最长子数组](./zuochengyun/longestSubarraySum.md)
+   3. [累加和小于aim的最长子数组](./zuochengyun/longestSubarrayLessSum.md)
 
 ## leetcode算法题解
 1. [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md)
