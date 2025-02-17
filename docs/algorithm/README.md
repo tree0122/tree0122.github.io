@@ -28,6 +28,7 @@ sidebar: auto
 ### 中级
 - KMP
   1. [KMP算法详情与应用](./zuochengyun/kmp.md)
+  2. [s是否仅能由一个子串组成](./zuochengyun/madeOfOneSubstr.md)
    
 - 滑动窗口
 - 单调栈
