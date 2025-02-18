@@ -33,6 +33,7 @@ sidebar: auto
    
 ### 滑动窗口
 1. [生成窗口最大值数组](./zuochengyun/maxWindow.md)
+2. [最大值减去最小值小于或等于num的子数组数量](./zuochengyun/subarrayCount.md)
    
 ### 单调栈
 ### 二叉树
