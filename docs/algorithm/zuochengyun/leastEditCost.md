@@ -23,15 +23,15 @@ public class LeastEditCost {
     public int leastEditCost(String s1, String s2, int ic, int dc, int rc) {
         int[][] d = new int[s1.length() + 1][s2.length() + 1];
         for (int i = 0; i <= s1.length(); i++) {
-            d[i][0] = dci;
+            d[i][0] = dc * i;
         }
         for (int i = 0; i < s2.length(); i++) {
-            d[0][i] = ici;
+            d[0][i] = ic * i;
         }
         for (int i = 1; i < d.length; i++) {
             for (int j = 1; j < d[0].length; j++) {
                 d[i][j] = d[i - 1][j - 1] + (s1.charAt(i - 1) == s2.charAt(j - 1) ? 0 : rc);
-                d[i][j] = Math.min(d[i][j], Math.min(d[i - 1][j] + ic, d[i][j - 1] + dc));
+                d[i][j] = Math.min(d[i][j], Math.min(d[i - 1][j] + dc, d[i][j - 1] + ic));
             }
         }
         return d[s1.length()][s2.length()];
