@@ -36,6 +36,8 @@ sidebar: auto
 2. [最大值减去最小值小于或等于num的子数组数量](./zuochengyun/subarrayCount.md)
    
 ### 单调栈
+1. [比其大的的左右最近的元素](./zuochengyun/nearestBig.md)
+   
 ### 二叉树
 1. [morris遍历](./zuochengyun/morris.md)
 2. [building outline](./zuochengyun/buildingOutline.md)
