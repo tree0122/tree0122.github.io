@@ -32,6 +32,8 @@ sidebar: auto
 4. [T2是不是T1的子树](./zuochengyun/isSubtree.md)
    
 ### 滑动窗口
+1. [生成窗口最大值数组](./zuochengyun/maxWindow.md)
+   
 ### 单调栈
 ### 二叉树
 1. [morris遍历](./zuochengyun/morris.md)
