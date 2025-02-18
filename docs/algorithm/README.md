@@ -37,6 +37,7 @@ sidebar: auto
    
 ### 单调栈
 1. [比其大的的左右最近的元素](./zuochengyun/nearestBig.md)
+2. [单调栈实现一个数组的MaxTree](./zuochengyun/maxTree.md)
    
 ### 二叉树
 1. [morris遍历](./zuochengyun/morris.md)
