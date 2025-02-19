@@ -30,14 +30,14 @@ public class MaxRectangle {
                 while (!stack.isEmpty() && a[stack.peek()] > a[j]) {
                     Integer pos = stack.pop();
                     int left = stack.isEmpty() ? pos - 1 : stack.peek();
-                    res = Math.max(res, (j - left - 1)a[pos]);
+                    res = Math.max(res, (j - left - 1)*a[pos]);
                 }
                 stack.push(j);
             }
             while (!stack.isEmpty()) {
                 Integer pos = stack.pop();
                 int left = stack.isEmpty() ? pos - 1 : stack.peek();
-                res = Math.max(res, (pos - left)a[pos]);
+                res = Math.max(res, (pos - left)*a[pos]);
             }
         }
         return res;
