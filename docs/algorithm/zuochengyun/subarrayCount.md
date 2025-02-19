@@ -30,10 +30,10 @@ public class SubarrayCount {
                 }
             }
             res += right - left;
-            if (left <= maxQ.peekFirst()) {
+            if (left >= maxQ.peekFirst()) {
                 maxQ.pollFirst();
             }
-            if (left <= minQ.peekFirst()) {
+            if (left >= minQ.peekFirst()) {
                 minQ.pollFirst();
             }
         }
