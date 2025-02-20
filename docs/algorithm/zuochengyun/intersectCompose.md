@@ -15,31 +15,16 @@ public class IntersectCompose {
 
     public boolean intersectCompose(String s1, String s2, String s3) {
         boolean[][] d = new boolean[s1.length() + 1][s2.length() + 1];
-        for (int i = 1; i <= s2.length(); i++) {
-            if (s2.charAt(i - 1) == s3.charAt(i - 1)) {
-                d[0][i] = true;
-            }else {
-                break;
-            }
+        for (int i = 1; i < d.length && s1.charAt(i - 1) == s3.charAt(i - 1); i++) {
+            d[i][0] = true;
         }
-        for (int i = 1; i <= s1.length(); i++) {
-            if (s1.charAt(i - 1) == s3.charAt(i - 1)) {
-                d[i][0] = true;
-            }else {
-                break;
-            }
+        for (int i = 1; i < d[0].length && s2.charAt(i - 1) == s3.charAt(i - 1); i++) {
+            d[0][i] = true;
         }
         for (int i = 1; i < d.length; i++) {
             for (int j = 1; j < d[0].length; j++) {
-                if (s1.charAt(i-1) != s3.charAt(i+j-1) && s2.charAt(j-1) != s3.charAt(i+j-1)) {
-                    continue;
-                }
-                if (s1.charAt(i - 1) == s3.charAt(i + j - 1)) {
-                    d[i][j] = d[i - 1][j];
-                }
-                if (!d[i][j] && s2.charAt(j - 1) == s3.charAt(i +j - 1)) {
-                    d[i][j] = d[i][j-1];
-                }
+                d[i][j] = (s1.charAt(i - 1) == s3.charAt(i + j - 1) && d[i - 1][j])
+                        ||(s2.charAt(j - 1) == s3.charAt(i + j - 1) && d[i][j - 1]);
             }
         }
         return d[s1.length()][s2.length()];
