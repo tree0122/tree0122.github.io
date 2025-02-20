@@ -23,7 +23,7 @@ public class MaxSubBST {
         TData leftData = doProcess(n.left);
         TData rightData = doProcess(n.right);
         if (n.left == leftData.head && n.right == rightData.head && leftData.max < n.v && rightData.min > n.v) {
-            return new TData(n, leftData.min, rightData.max, leftData.count + rightData.count + 1);
+            return new TData(n, Math.min(leftData.min, n.v), Math.max(rightData.max, n.v), leftData.count + rightData.count + 1);
         }
         return leftData.count >= rightData.count ? leftData : rightData;
     }
