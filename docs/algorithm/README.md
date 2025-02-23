@@ -22,6 +22,7 @@ sidebar: auto
 ### 哈希
 ### 贪心
 1. [IPO](./zuochengyun/junior/maxCapital.md)
+2. [最佳会议室安排](./zuochengyun/junior/bestArrange.md)
 
 ### 回溯
 1. [八皇后问题](./zuochengyun/junior/eightQueen.md)
