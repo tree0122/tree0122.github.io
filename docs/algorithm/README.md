@@ -6,15 +6,15 @@ sidebar: auto
 
 ## 左程云（左神）讲解：初级
 ### 复杂度
-1. [认识时间复杂度](./zuochengyun/complexity)
+1. [认识时间复杂度](./zuochengyun/junior/complexity)
   
 ### 排序
-1. [冒泡](./zuochengyun/bubble)
-2. [选择](./zuochengyun/select)
-3. [插入](./zuochengyun/insert)
-4. [归并](./zuochengyun/merge)
-5. [快排](./zuochengyun/quick)
-6. [堆排](./zuochengyun/heap) 
+1. [冒泡](./zuochengyun/junior/bubble)
+2. [选择](./zuochengyun/junior/select)
+3. [插入](./zuochengyun/junior/insert)
+4. [归并](./zuochengyun/junior/merge)
+5. [快排](./zuochengyun/junior/quick)
+6. [堆排](./zuochengyun/junior/heap) 
 
 ### 堆栈
 ### 链表
