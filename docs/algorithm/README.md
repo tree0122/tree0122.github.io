@@ -22,6 +22,8 @@ sidebar: auto
 ### 哈希
 ### 贪心
 ### 回溯
+1. [八皇后问题](./zuochengyun/junior/eightQueen.md)
+   
 ### 动态规划
 1. [背包问题](./zuochengyun/junior/knapsack.md)
 
