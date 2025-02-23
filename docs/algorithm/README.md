@@ -24,6 +24,7 @@ sidebar: auto
 ### 回溯
 1. [八皇后问题](./zuochengyun/junior/eightQueen.md)
 2. [逆序一个栈](./zuochengyun/junior/reverseStack.md)
+3. [所有的子序列](./zuochengyun/junior/allSubSeq.md)
    
 ### 动态规划
 1. [背包问题](./zuochengyun/junior/knapsack.md)
