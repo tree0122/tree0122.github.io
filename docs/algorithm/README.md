@@ -27,6 +27,7 @@ sidebar: auto
    
 ### 动态规划
 1. [背包问题](./zuochengyun/junior/knapsack.md)
+2. [扎气球得最大金币](./zuochengyun/junior/maxCoins.md)
 
 ## 左程云（左神）讲解：中级
 ### KMP
