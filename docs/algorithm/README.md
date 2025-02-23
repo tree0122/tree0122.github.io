@@ -23,6 +23,7 @@ sidebar: auto
 ### 贪心
 ### 回溯
 ### 动态规划
+1. [背包问题](./zuochengyun/junior//knapsack.md)
 
 ## 左程云（左神）讲解：中级
 ### KMP
