@@ -21,6 +21,8 @@ sidebar: auto
 ### 树
 ### 哈希
 ### 贪心
+1. [IPO](./zuochengyun/junior/maxCapital.md)
+
 ### 回溯
 1. [八皇后问题](./zuochengyun/junior/eightQueen.md)
 2. [逆序一个栈](./zuochengyun/junior/reverseStack.md)
