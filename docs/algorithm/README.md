@@ -19,6 +19,8 @@ sidebar: auto
 ### 堆栈
 ### 链表
 ### 树
+1. [前缀树](./zuochengyun/junior/trieTree.md)
+
 ### 哈希
 ### 贪心
 1. [IPO](./zuochengyun/junior/maxCapital.md)
