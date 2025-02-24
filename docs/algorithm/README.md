@@ -20,6 +20,7 @@ sidebar: auto
 ### 链表
 ### 树
 1. [前缀树](./zuochengyun/junior/trieTree.md)
+2. [完全二叉树节点数量](./zuochengyun/junior/completeTreeCount.md)
 
 ### 哈希
 1. [岛屿个数](./zuochengyun/junior/islands.md)
