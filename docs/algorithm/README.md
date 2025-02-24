@@ -24,6 +24,7 @@ sidebar: auto
 ### 哈希
 1. [岛屿个数](./zuochengyun/junior/islands.md)
 2. [并查集](./zuochengyun/junior/unionFind.md)
+3. [randomPool](./zuochengyun/junior/randomPool.md)
 
 ### 贪心
 1. [IPO](./zuochengyun/junior/maxCapital.md)
