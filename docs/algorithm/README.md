@@ -22,6 +22,7 @@ sidebar: auto
 1. [前缀树](./zuochengyun/junior/trieTree.md)
 2. [完全二叉树节点数量](./zuochengyun/junior/completeTreeCount.md)
 3. [二叉树的序列化和反序列化](./zuochengyun/junior/binaryTreeSerialize.md)
+4. [二叉树的后继和前驱](./zuochengyun/junior/successor.md)
 
 ### 哈希
 1. [岛屿个数](./zuochengyun/junior/islands.md)
