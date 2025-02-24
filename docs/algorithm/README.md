@@ -22,6 +22,8 @@ sidebar: auto
 1. [前缀树](./zuochengyun/junior/trieTree.md)
 
 ### 哈希
+1. [岛屿个数](./zuochengyun/junior/islands.md)
+
 ### 贪心
 1. [IPO](./zuochengyun/junior/maxCapital.md)
 2. [最佳会议室安排](./zuochengyun/junior/bestArrange.md)
