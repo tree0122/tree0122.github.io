@@ -18,6 +18,8 @@ sidebar: auto
 
 ### 堆栈
 ### 链表
+1. [链表按某值划三块](./zuochengyun/junior/smallEqualBig.md)
+
 ### 树
 1. [前缀树](./zuochengyun/junior/trieTree.md)
 2. [完全二叉树节点数量](./zuochengyun/junior/completeTreeCount.md)
