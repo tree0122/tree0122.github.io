@@ -4,7 +4,7 @@ sidebar: auto
 <!-- [[TOC]] -->
 # 算法
 
-## 左程云（左神）讲解：初级
+## 左程云：初级
 ### 复杂度
 1. [认识时间复杂度](./zuochengyun/junior/complexity)
   
@@ -56,7 +56,11 @@ sidebar: auto
 5. [数组累加得到aim](./zuochengyun/junior/sumToAim.md)
 6. [cow](./zuochengyun/junior/cow.md)
 
-## 左程云（左神）讲解：中级
+### 其他
+1. [searchInOrderMatrix](./zuochengyun/junior/searchInOrderMatrix.md)
+
+
+## 左程云：中级
 ### KMP
 1. [KMP算法详情与应用](./zuochengyun/senior/kmp.md)
 2. [s是否仅能由一个子串组成](./zuochengyun/senior/madeOfOneSubstr.md)
