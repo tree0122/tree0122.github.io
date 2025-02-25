@@ -19,6 +19,7 @@ sidebar: auto
 ### 队列和栈
 1. [队列和栈相互实现](./zuochengyun/junior/stackAndQueue)
 2. [有最小元素方法的栈](./zuochengyun/junior/minStack)
+3. [数组结构实现队列和栈](./zuochengyun/junior/dequeByArray)
 
 
 ### 链表
