@@ -1,7 +1,7 @@
-# searchInOrderMatrix
+# zigzagMatrix
 
 ## 题目
-searchInOrderMatrix
+zigzagMatrix
 
 ## 代码
 ```java
