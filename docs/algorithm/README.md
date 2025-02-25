@@ -23,6 +23,7 @@ sidebar: auto
 3. [复制含有随机指针节点的链表](./zuochengyun/junior/copyList.md)
 4. [链表是否为回文结构](./zuochengyun/junior/isPalindrome.md)
 5. [两顺序链表的相同部分](./zuochengyun/junior/samePart.md)
+6. [反转链表](./zuochengyun/junior/reverse.md)
 
 ### 树
 1. [前缀树](./zuochengyun/junior/trieTree.md)
