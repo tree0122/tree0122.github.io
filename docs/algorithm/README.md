@@ -16,7 +16,10 @@ sidebar: auto
 5. [快排](./zuochengyun/junior/quick)
 6. [堆排](./zuochengyun/junior/heap) 
 
-### 堆栈
+### 队列和栈
+1. [队列和栈相互实现](./zuochengyun/junior/stackAndQueue)
+
+
 ### 链表
 1. [链表按某值划三块](./zuochengyun/junior/smallEqualBig.md)
 2. [两个链表相交点](./zuochengyun/junior/firstIntersect.md)
