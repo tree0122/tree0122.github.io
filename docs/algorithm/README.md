@@ -20,6 +20,7 @@ sidebar: auto
 ### 链表
 1. [链表按某值划三块](./zuochengyun/junior/smallEqualBig.md)
 2. [两个链表相交点](./zuochengyun/junior/firstIntersect.md)
+3. [复制含有随机指针节点的链表](./zuochengyun/junior/copyList.md)
 
 ### 树
 1. [前缀树](./zuochengyun/junior/trieTree.md)
