@@ -17,6 +17,7 @@ sidebar: auto
 6. [堆排](./zuochengyun/junior/heap) 
 7. [maxGap](./zuochengyun/junior/maxGap) 
 8. [一个stream的中位数](./zuochengyun/junior/medianQuick) 
+9. [netherlandsFlag](./zuochengyun/junior/netherlandsFlag) 
 
 ### 队列和栈
 1. [队列和栈相互实现](./zuochengyun/junior/stackAndQueue)
