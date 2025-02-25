@@ -1,7 +1,7 @@
-# rotateMatrix
+# 旋转正方形矩阵
 
 ## 题目
-rotateMatrix
+旋转正方形矩阵
 
 ## 代码
 ```java
