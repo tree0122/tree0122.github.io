@@ -59,6 +59,7 @@ sidebar: auto
 ### 其他
 1. [searchInOrderMatrix](./zuochengyun/junior/searchInOrderMatrix.md)
 2. [zigzagMatrix](./zuochengyun/junior/zigzagMatrix.md)
+3. [旋转正方形矩阵](./zuochengyun/junior/rotateMatrix.md)
 
 
 ## 左程云：中级
