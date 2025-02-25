@@ -15,6 +15,7 @@ sidebar: auto
 4. [归并](./zuochengyun/junior/merge)
 5. [快排](./zuochengyun/junior/quick)
 6. [堆排](./zuochengyun/junior/heap) 
+7. [maxGap](./zuochengyun/junior/maxGap) 
 
 ### 队列和栈
 1. [队列和栈相互实现](./zuochengyun/junior/stackAndQueue)
