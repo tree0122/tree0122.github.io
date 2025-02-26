@@ -12,7 +12,7 @@ sidebar: auto
 
 | 序号        | 题号           | 标题  | 标签  | 难度  |
 | ---------- |:-------------:| -----:| -----:| -----:|
-| 1      | [0189](https://leetcode.cn/problems/rotate-array/) | [轮转数组](./leetcode/L0215KthLargestInArray.md) | 数组、数学、双指针 | 中等 |
+| 1      | [0189](https://leetcode.cn/problems/rotate-array/) | [轮转数组](./leetcode/L0189Rotate.md) | 数组、数学、双指针 | 中等 |
 
 
 **参考**
