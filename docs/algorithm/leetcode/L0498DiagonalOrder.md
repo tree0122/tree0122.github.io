@@ -52,5 +52,4 @@ public class L0498DiagonalOrder {
 ```
 
 ## 复杂度分析
-- 堆排序，时间复杂度O(N*Lg(N)),额外空间复杂度O(k)
-- 快排序，时间复杂度O(N),额外空间复杂度O(1)
+
