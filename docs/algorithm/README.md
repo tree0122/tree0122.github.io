@@ -20,6 +20,7 @@ sidebar: auto
 | 6      | [0283](https://leetcode.cn/problems/move-zeroes/) | [移动零](./leetcode/L0283MoveZeroes.md) | 数组 | 中等 |
 | 7      | [0215](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | [数组中的第K个最大元素](./leetcode/L0215KthLargestInArray.md) | 数组、快排 | 中等 |
 | 8      | [0075](https://leetcode.cn/problems/sort-colors/) | [颜色分类](./leetcode/L0075SortColors.md) | 数组、快排 | 中等 |
+| 9      | [0912](https://leetcode.cn/problems/sort-an-array/) | [排序数组](./leetcode/L0912SortAnArray.md) | 数组、排序 | 中等 |
 
 
 **参考**
