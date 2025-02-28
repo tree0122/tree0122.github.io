@@ -17,7 +17,7 @@ sidebar: auto
 | 3      | [0048](https://leetcode.cn/problems/rotate-image/) | [旋转图像](./leetcode/L0048RotateImage.md) | 数组 | 中等 |
 | 4      | [0054](https://leetcode.cn/problems/spiral-matrix/) | [旋转图像](./leetcode/L0054SpiralOrder.md) | 数组 | 中等 |
 | 5      | [0059](https://leetcode.cn/problems/spiral-matrix-ii/) | [旋转图像](./leetcode/L0059GenerateMatrix.md) | 数组 | 中等 |
-| 5      | [0283](https://leetcode.cn/problems/move-zeroes/) | [移动零](./leetcode/L0283MoveZeroes.md) | 数组 | 中等 |
+| 6      | [0283](https://leetcode.cn/problems/move-zeroes/) | [移动零](./leetcode/L0283MoveZeroes.md) | 数组 | 中等 |
 
 
 **参考**
