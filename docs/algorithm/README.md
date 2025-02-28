@@ -22,6 +22,7 @@ sidebar: auto
 | 8      | [0075](https://leetcode.cn/problems/sort-colors/) | [颜色分类](./leetcode/L0075SortColors.md) | 数组、快排 | 中等 |
 | 9      | [0912](https://leetcode.cn/problems/sort-an-array/) | [排序数组](./leetcode/L0912SortAnArray.md) | 数组、排序 | 中等 |
 | 10     | [0088](https://leetcode.cn/problems/merge-sorted-array/) | [合并两个有序数组](./leetcode/L0088Merge.md) | 数组、排序 | 中等 |
+| 11     | [LCR170](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [数组中的逆序对](./leetcode/LCR170ReversePairs.md) | 数组、排序 | 中等 |
 
 
 **参考**
