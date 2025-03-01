@@ -40,9 +40,10 @@ sidebar: auto
 | 26     | [0004](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [寻找两个正序数组的中位数](./leetcode/L0004FindMedianSortedArrays.md) | 数组、二分 | 困难 |
 | 27     | [0074](https://leetcode.cn/problems/search-a-2d-matrix/) | [搜索二维矩阵](./leetcode/L0074SearchMatrix.md) | 数组、二分 | 中等 |
 | 28     | [0240](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [搜索二维矩阵 II](./leetcode/L0240SearchMatrix2.md) | 数组、二分 | 中等 |
-| 29     | [0069](https://leetcode.cn/problems/sqrtx/) | [x 的平方根](./leetcode/L0069MySqrt.md) | 数组、二分 | 简单 |
+| 29     | [0069](https://leetcode.cn/problems/sqrtx/) | [x 的平方根](./leetcode/L0069MySqrt.md) | 二分 | 简单 |
 | 30     | [0287](https://leetcode.cn/problems/find-the-duplicate-number/) | [寻找重复数](./leetcode/L0287FindDuplicate.md) | 数组、快慢指针 | 中等 |
-| 31     | [0050](https://leetcode.cn/problems/powx-n/) | [Pow(x, n)](./leetcode/L0050MyPow.md) | 数组、二分 | 中等 |
+| 31     | [0050](https://leetcode.cn/problems/powx-n/) | [Pow(x, n)](./leetcode/L0050MyPow.md) | 二分 | 中等 |
+| 32     | [0400](https://leetcode.cn/problems/nth-digit/) | [第 N 位数字](./leetcode/L0400FindNthDigit.md) | 数学、二分 | 中等 |
 
 
 **参考**
