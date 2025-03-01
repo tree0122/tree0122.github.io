@@ -30,6 +30,7 @@ sidebar: auto
 | 16     | [0056](https://leetcode.cn/problems/merge-intervals/) | [合并区间](./leetcode/L0056MergeIntervals.md) | 数组、排序 | 中等 |
 | 17     | [0179](https://leetcode.cn/problems/largest-number/) | [最大数](./leetcode/L0179LargestNumber.md) | 数组、heap | 中等 |
 | 18     | [0384](https://leetcode.cn/problems/shuffle-an-array/) | [最大数](./leetcode/L0384ShuffleArray.md) | 数组 | 中等 |
+| 19     | [LCR164](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [把数组排成最小的数](./leetcode/LCR164MinNumber.md) | 数组、heap | 中等 |
 
 
 **参考**
