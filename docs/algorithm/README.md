@@ -39,6 +39,7 @@ sidebar: auto
 | 25     | [0162](https://leetcode.cn/problems/find-peak-element/) | [寻找峰值](./leetcode/L0162findPeakElement.md) | 数组、二分 | 中等 |
 | 26     | [0004](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [寻找两个正序数组的中位数](./leetcode/L0004FindMedianSortedArrays.md) | 数组、二分 | 困难 |
 | 27     | [0074](https://leetcode.cn/problems/search-a-2d-matrix/) | [搜索二维矩阵](./leetcode/L0074SearchMatrix.md) | 数组、二分 | 中等 |
+| 28     | [0240](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [搜索二维矩阵 II](./leetcode/L0240SearchMatrix2.md) | 数组、二分 | 中等 |
 
 
 **参考**
