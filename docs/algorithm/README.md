@@ -28,6 +28,7 @@ sidebar: auto
 | 14     | [0164](https://leetcode.cn/problems/maximum-gap/) | [最大间距](./leetcode/L0164MaxGap.md) | 数组、基数排序 | 中等 |
 | 15     | [0136](https://leetcode.cn/problems/single-number/) | [只出现一次的数字](./leetcode/L0136SingleNumber.md) | 数组、位运算 | 简单 |
 | 16     | [0056](https://leetcode.cn/problems/merge-intervals/) | [合并区间](./leetcode/L0056MergeIntervals.md) | 数组、排序 | 中等 |
+| 17     | [0179](https://leetcode.cn/problems/largest-number/) | [最大数](./leetcode/L0179LargestNumber.md) | 数组、heap | 中等 |
 
 
 **参考**
