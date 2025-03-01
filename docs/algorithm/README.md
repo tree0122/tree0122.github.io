@@ -25,6 +25,7 @@ sidebar: auto
 | 11     | [LCR170](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) | [数组中的逆序对](./leetcode/LCR170ReversePairs.md) | 数组、排序 | 中等 |
 | 12     | [0169](https://leetcode.cn/problems/majority-element/) | [多数元素](./leetcode/L0169MajorityElement.md) | 数组、map | 中等 |
 | 13     | [LCR159](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) | [最小的k个数](./leetcode/LCR159GetLeastNumbers.md) | 数组、快排、heap | 中等 |
+| 14     | [0164](https://leetcode.cn/problems/maximum-gap/) | [最大间距](./leetcode/L0164MaxGap.md) | 数组、基数排序 | 中等 |
 
 
 **参考**
