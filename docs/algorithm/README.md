@@ -41,6 +41,7 @@ sidebar: auto
 | 27     | [0074](https://leetcode.cn/problems/search-a-2d-matrix/) | [搜索二维矩阵](./leetcode/L0074SearchMatrix.md) | 数组、二分 | 中等 |
 | 28     | [0240](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [搜索二维矩阵 II](./leetcode/L0240SearchMatrix2.md) | 数组、二分 | 中等 |
 | 29     | [0069](https://leetcode.cn/problems/sqrtx/) | [x 的平方根](./leetcode/L0069MySqrt.md) | 数组、二分 | 简单 |
+| 30     | [0287](https://leetcode.cn/problems/find-the-duplicate-number/) | [寻找重复数](./leetcode/L0287FindDuplicate.md) | 数组、快慢指针 | 中等 |
 
 
 **参考**
