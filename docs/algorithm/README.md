@@ -35,6 +35,7 @@ sidebar: auto
 | 21     | [0034](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [在排序数组中查找元素的第一个和最后一个位置](./leetcode/L0034SearchRange.md) | 数组、二分 | 中等 |
 | 22     | [0153](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | [寻找旋转排序数组中的最小值](./leetcode/L0153FindMin.md) | 数组、二分 | 中等 |
 | 23     | [0154](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | [寻找旋转排序数组中的最小值 II](./leetcode/L0154FindMin2.md) | 数组、二分 | 困难 |
+| 24     | [0033](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [搜索旋转排序数组](./leetcode/L0033Search.md) | 数组、二分 | 中等 |
 
 
 **参考**
