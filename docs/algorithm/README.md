@@ -36,6 +36,7 @@ sidebar: auto
 | 22     | [0153](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/) | [寻找旋转排序数组中的最小值](./leetcode/L0153FindMin.md) | 数组、二分 | 中等 |
 | 23     | [0154](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array-ii/) | [寻找旋转排序数组中的最小值 II](./leetcode/L0154FindMin2.md) | 数组、二分 | 困难 |
 | 24     | [0033](https://leetcode.cn/problems/search-in-rotated-sorted-array/) | [搜索旋转排序数组](./leetcode/L0033Search.md) | 数组、二分 | 中等 |
+| 25     | [0162](https://leetcode.cn/problems/find-peak-element/) | [寻找峰值](./leetcode/L0162findPeakElement.md) | 数组、二分 | 中等 |
 
 
 **参考**
