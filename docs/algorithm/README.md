@@ -31,7 +31,8 @@ sidebar: auto
 | 17     | [0179](https://leetcode.cn/problems/largest-number/) | [最大数](./leetcode/L0179LargestNumber.md) | 数组、heap | 中等 |
 | 18     | [0384](https://leetcode.cn/problems/shuffle-an-array/) | [最大数](./leetcode/L0384ShuffleArray.md) | 数组 | 中等 |
 | 19     | [LCR164](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) | [把数组排成最小的数](./leetcode/LCR164MinNumber.md) | 数组、heap | 中等 |
-| 20     | [0704](https://leetcode.cn/problems/binary-search/) | [二分查找](./leetcode/L0704BinarySearch.md) | 数组、heap | 中等 |
+| 20     | [0704](https://leetcode.cn/problems/binary-search/) | [二分查找](./leetcode/L0704BinarySearch.md) | 数组、二分 | 简单 |
+| 21     | [0034](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/) | [在排序数组中查找元素的第一个和最后一个位置](./leetcode/L0034SearchRange.md) | 数组、二分 | 中等 |
 
 
 **参考**
