@@ -40,6 +40,7 @@ sidebar: auto
 | 26     | [0004](https://leetcode.cn/problems/median-of-two-sorted-arrays/) | [寻找两个正序数组的中位数](./leetcode/L0004FindMedianSortedArrays.md) | 数组、二分 | 困难 |
 | 27     | [0074](https://leetcode.cn/problems/search-a-2d-matrix/) | [搜索二维矩阵](./leetcode/L0074SearchMatrix.md) | 数组、二分 | 中等 |
 | 28     | [0240](https://leetcode.cn/problems/search-a-2d-matrix-ii/) | [搜索二维矩阵 II](./leetcode/L0240SearchMatrix2.md) | 数组、二分 | 中等 |
+| 29     | [0069](https://leetcode.cn/problems/sqrtx/) | [x 的平方根](./leetcode/L0069MySqrt.md) | 数组、二分 | 简单 |
 
 
 **参考**
