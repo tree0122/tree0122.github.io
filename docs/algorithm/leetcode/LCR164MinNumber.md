@@ -27,30 +27,20 @@
 ## 代码
 ```java
 public class LCR164MinNumber {
-        private int[] a;
-
-        ShuffleArray(int[] a) {
-            this.a = a;
+        
+    public String minNumber(int[] nums) {
+        StringBuilder sb = new StringBuilder();
+        PriorityQueue<Integer> q = new PriorityQueue<>((i1, i2) -> (i1 + "" + i2).compareTo(i2 + "" + i1));
+        for (int v : nums) {
+            q.offer(v);
         }
-
-        public int[] reset() {
-            return this.a;
+        while (!q.isEmpty()) {
+            sb.append(q.poll());
         }
-
-        public int[] shuffle() {
-            int[] h = new int[a.length];
-            for (int i = h.length - 1; i >= 0; i--) {
-                h[i] = a[i];
-            }
-            for (int i = h.length - 1; i >= 0; i--) {
-                int dx = (int) (Math.random() * (i + 1));
-                int t = h[i];
-                h[i] = h[dx];
-                h[dx] = t;
-            }
-            return h;
-        }
+        return sb.toString();
     }
+    
+}
 ```
 
 ## 复杂度分析
