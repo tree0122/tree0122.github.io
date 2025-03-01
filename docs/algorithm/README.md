@@ -27,6 +27,7 @@ sidebar: auto
 | 13     | [LCR159](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) | [最小的k个数](./leetcode/LCR159GetLeastNumbers.md) | 数组、快排、heap | 中等 |
 | 14     | [0164](https://leetcode.cn/problems/maximum-gap/) | [最大间距](./leetcode/L0164MaxGap.md) | 数组、基数排序 | 中等 |
 | 15     | [0136](https://leetcode.cn/problems/single-number/) | [只出现一次的数字](./leetcode/L0136SingleNumber.md) | 数组、位运算 | 简单 |
+| 16     | [0056](https://leetcode.cn/problems/merge-intervals/) | [合并区间](./leetcode/L0056MergeIntervals.md) | 数组、排序 | 中等 |
 
 
 **参考**
