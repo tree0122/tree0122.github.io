@@ -29,7 +29,7 @@ sidebar: auto
 | 15     | [0136](https://leetcode.cn/problems/single-number/) | [只出现一次的数字](./leetcode/L0136SingleNumber.md) | 数组、位运算 | 简单 |
 | 16     | [0056](https://leetcode.cn/problems/merge-intervals/) | [合并区间](./leetcode/L0056MergeIntervals.md) | 数组、排序 | 中等 |
 | 17     | [0179](https://leetcode.cn/problems/largest-number/) | [最大数](./leetcode/L0179LargestNumber.md) | 数组、heap | 中等 |
-| 18     | [0384](https://leetcode.cn/problems/shuffle-an-array/) | [最大数](./leetcode/L0384ShuffleArray.md) | 数组、heap | 中等 |
+| 18     | [0384](https://leetcode.cn/problems/shuffle-an-array/) | [最大数](./leetcode/L0384ShuffleArray.md) | 数组 | 中等 |
 
 
 **参考**
