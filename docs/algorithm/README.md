@@ -55,6 +55,7 @@ sidebar: auto
 | 41     | [0443](https://leetcode.cn/problems/string-compression/) | [压缩字符串](./leetcode/L0443Compress.md) | 双指针 | 中等 |
 | 42     | [0026](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [删除有序数组中的重复项](./leetcode/L0026RemoveDuplicates.md) | 双指针 | 简单 |
 | 43     | [0415](https://leetcode.cn/problems/add-strings/) | [字符串相加](./leetcode/L0415AddStrings.md) | 字符串、模拟 | 简单 |
+| 44     | [0239](https://leetcode.cn/problems/sliding-window-maximum/) | [滑动窗口最大值](./leetcode/L0239MaxSlidingWindow.md) | 窗口 | 困难 |
 
 
 **参考**
