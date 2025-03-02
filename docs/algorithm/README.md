@@ -46,6 +46,7 @@ sidebar: auto
 | 32     | [0400](https://leetcode.cn/problems/nth-digit/) | [第 N 位数字](./leetcode/L0400FindNthDigit.md) | 数学、二分 | 中等 |
 | 33     | [0209](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [长度最小的子数组](./leetcode/L0209MinSubArrayLen.md) | 数组、窗口 | 中等 |
 | 34     | [0349](https://leetcode.cn/problems/intersection-of-two-arrays/) | [两个数组的交集](./leetcode/L0349Intersection.md) | 数组、hash | 简单 |
+| 35     | [0611](https://leetcode.cn/problems/valid-triangle-number/) | [有效三角形的个数](./leetcode/L0611TriangleNumber.md) | 数组、双指针 | 中等 |
 
 
 **参考**
