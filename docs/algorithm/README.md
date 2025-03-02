@@ -59,6 +59,7 @@ sidebar: auto
 | 45     | [0003](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | [无重复字符的最长子串](./leetcode/L0003LengthOfLongestSubstring.md) | 窗口 | 中等 |
 | 46     | [0076](https://leetcode.cn/problems/minimum-window-substring/) | [最小覆盖子串](./leetcode/L0076MinWindow.md) | 窗口 | 困难 |
 | 47     | [0718](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/) | [最长重复子数组](./leetcode/L0718FindLength.md) | DP、窗口 | 中等 |
+| 48     | [0862](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [和至少为 K 的最短子数组](./leetcode/L0862ShortestSubarray.md) | 窗口 | 困难 |
 
 
 **参考**
