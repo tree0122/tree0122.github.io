@@ -44,6 +44,7 @@ sidebar: auto
 | 30     | [0287](https://leetcode.cn/problems/find-the-duplicate-number/) | [寻找重复数](./leetcode/L0287FindDuplicate.md) | 数组、快慢指针 | 中等 |
 | 31     | [0050](https://leetcode.cn/problems/powx-n/) | [Pow(x, n)](./leetcode/L0050MyPow.md) | 二分 | 中等 |
 | 32     | [0400](https://leetcode.cn/problems/nth-digit/) | [第 N 位数字](./leetcode/L0400FindNthDigit.md) | 数学、二分 | 中等 |
+| 33     | [0209](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [长度最小的子数组](./leetcode/L0209MinSubArrayLen.md) | 数组、窗口 | 中等 |
 
 
 **参考**
