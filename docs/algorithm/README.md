@@ -48,6 +48,7 @@ sidebar: auto
 | 34     | [0349](https://leetcode.cn/problems/intersection-of-two-arrays/) | [两个数组的交集](./leetcode/L0349Intersection.md) | 数组、hash | 简单 |
 | 35     | [0611](https://leetcode.cn/problems/valid-triangle-number/) | [有效三角形的个数](./leetcode/L0611TriangleNumber.md) | 数组、双指针 | 中等 |
 | 36     | [0015](https://leetcode.cn/problems/3sum/) | [三数之和](./leetcode/L0015ThreeSum.md) | 数组、双指针 | 中等 |
+| 37     | [0016](https://leetcode.cn/problems/3sum-closest/) | [最接近的三数之和](./leetcode/L0016ThreeSumClosest.md) | 数组、双指针 | 中等 |
 
 
 **参考**
