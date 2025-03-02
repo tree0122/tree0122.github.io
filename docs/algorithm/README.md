@@ -49,7 +49,7 @@ sidebar: auto
 | 35     | [0611](https://leetcode.cn/problems/valid-triangle-number/) | [有效三角形的个数](./leetcode/L0611TriangleNumber.md) | 数组、双指针 | 中等 |
 | 36     | [0015](https://leetcode.cn/problems/3sum/) | [三数之和](./leetcode/L0015ThreeSum.md) | 数组、双指针 | 中等 |
 | 37     | [0016](https://leetcode.cn/problems/3sum-closest/) | [最接近的三数之和](./leetcode/L0016ThreeSumClosest.md) | 数组、双指针 | 中等 |
-| 38     | [0125](https://leetcode.cn/problems/valid-palindrome/) | [验证回文串](./leetcode/L0125IsPalindrome.md) | 双指针 | 中等 |
+| 38     | [0125](https://leetcode.cn/problems/valid-palindrome/) | [验证回文串](./leetcode/L0125IsPalindrome.md) | 双指针 | 简单 |
 
 
 **参考**
