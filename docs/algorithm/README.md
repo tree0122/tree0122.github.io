@@ -45,6 +45,7 @@ sidebar: auto
 | 31     | [0050](https://leetcode.cn/problems/powx-n/) | [Pow(x, n)](./leetcode/L0050MyPow.md) | 二分 | 中等 |
 | 32     | [0400](https://leetcode.cn/problems/nth-digit/) | [第 N 位数字](./leetcode/L0400FindNthDigit.md) | 数学、二分 | 中等 |
 | 33     | [0209](https://leetcode.cn/problems/minimum-size-subarray-sum/) | [长度最小的子数组](./leetcode/L0209MinSubArrayLen.md) | 数组、窗口 | 中等 |
+| 34     | [0349](https://leetcode.cn/problems/intersection-of-two-arrays/) | [两个数组的交集](./leetcode/L0349Intersection.md) | 数组、hash | 简单 |
 
 
 **参考**
