@@ -54,6 +54,7 @@ sidebar: auto
 | 40     | [LCR139](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [奇数位于偶数前面](./leetcode/LCR139TrainingPlan.md) | 双指针 | 简单 |
 | 41     | [0443](https://leetcode.cn/problems/string-compression/) | [压缩字符串](./leetcode/L0443Compress.md) | 双指针 | 中等 |
 | 42     | [0026](https://leetcode.cn/problems/remove-duplicates-from-sorted-array/) | [删除有序数组中的重复项](./leetcode/L0026RemoveDuplicates.md) | 双指针 | 简单 |
+| 43     | [0415](https://leetcode.cn/problems/add-strings/) | [字符串相加](./leetcode/L0415AddStrings.md) | 字符串、模拟 | 简单 |
 
 
 **参考**
