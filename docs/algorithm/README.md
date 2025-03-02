@@ -51,6 +51,7 @@ sidebar: auto
 | 37     | [0016](https://leetcode.cn/problems/3sum-closest/) | [最接近的三数之和](./leetcode/L0016ThreeSumClosest.md) | 数组、双指针 | 中等 |
 | 38     | [0125](https://leetcode.cn/problems/valid-palindrome/) | [验证回文串](./leetcode/L0125IsPalindrome.md) | 双指针 | 简单 |
 | 39     | [0011](https://leetcode.cn/problems/container-with-most-water/) | [盛最多水的容器](./leetcode/L0011MaxArea.md) | 双指针 | 中等 |
+| 40     | [LCR139](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | [奇数位于偶数前面](./leetcode/LCR139TrainingPlan.md) | 双指针 | 简单 |
 
 
 **参考**
