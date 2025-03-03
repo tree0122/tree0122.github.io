@@ -65,6 +65,7 @@ sidebar: auto
 | 51     | [0082](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/) | [删除排序链表中的重复元素 II](./leetcode/L0082DeleteDuplicates2.md) | 链表 | 中等 |
 | 52     | [0092](https://leetcode.cn/problems/reverse-linked-list-ii/) | [反转链表 II](./leetcode/L0092ReverseBetween.md) | 链表 | 中等 |
 | 53     | [0025](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | [K 个一组翻转链表](./leetcode/L0025ReverseKGroup.md) | 链表 | 困难 |
+| 54     | [0328](https://leetcode.cn/problems/odd-even-linked-list/) | [奇偶链表](./leetcode/L0328OddEvenList.md) | 链表 | 中等 |
 
 
 **参考**
