@@ -62,6 +62,7 @@ sidebar: auto
 | 48     | [0862](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/) | [和至少为 K 的最短子数组](./leetcode/L0862ShortestSubarray.md) | 窗口 | 困难 |
 | 49     | [1004](https://leetcode.cn/problems/max-consecutive-ones-iii/) | [最大连续1的个数 III](./leetcode/L1004LongestOnes.md) | 窗口 | 中等 |
 | 50     | [0083](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/) | [删除排序链表中的重复元素](./leetcode/L0083DeleteDuplicates.md) | 链表 | 简单 |
+| 51     | [0082](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/) | [删除排序链表中的重复元素 II](./leetcode/L0082DeleteDuplicates2.md) | 链表 | 中等 |
 
 
 **参考**
