@@ -67,6 +67,7 @@ sidebar: auto
 | 53     | [0025](https://leetcode.cn/problems/reverse-nodes-in-k-group/) | [K 个一组翻转链表](./leetcode/L0025ReverseKGroup.md) | 链表 | 困难 |
 | 54     | [0328](https://leetcode.cn/problems/odd-even-linked-list/) | [奇偶链表](./leetcode/L0328OddEvenList.md) | 链表 | 中等 |
 | 55     | [0138](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [复制带随机指针的链表](./leetcode/L0138CopyRandomList.md) | 链表 | 中等 |
+| 56     | [0061](https://leetcode.cn/problems/rotate-list/) | [旋转链表](./leetcode/L0061RotateRight.md) | 链表 | 中等 |
 
 
 **参考**
