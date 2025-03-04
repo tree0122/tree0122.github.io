@@ -69,6 +69,7 @@ sidebar: auto
 | 55     | [0138](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [复制带随机指针的链表](./leetcode/L0138CopyRandomList.md) | 链表 | 中等 |
 | 56     | [0061](https://leetcode.cn/problems/rotate-list/) | [旋转链表](./leetcode/L0061RotateRight.md) | 链表 | 中等 |
 | 57     | [0148](https://leetcode.cn/problems/sort-list/) | [排序链表](./leetcode/L0148SortList.md) | 链表、排序 | 中等 |
+| 58     | [0021](https://leetcode.cn/problems/merge-two-sorted-lists/) | [合并两个有序链表](./leetcode/L0021MergeTwoLists.md) | 链表、排序 | 简单 |
 
 
 **参考**
