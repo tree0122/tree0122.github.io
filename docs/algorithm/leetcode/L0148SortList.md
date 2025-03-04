@@ -42,6 +42,7 @@ public class L0148SortList {
             }
             cur = cur.next;
         }
+        cur.next = (left != null) ? left : right;
         return dum.next;
     }
 
