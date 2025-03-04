@@ -70,6 +70,7 @@ sidebar: auto
 | 56     | [0061](https://leetcode.cn/problems/rotate-list/) | [旋转链表](./leetcode/L0061RotateRight.md) | 链表 | 中等 |
 | 57     | [0148](https://leetcode.cn/problems/sort-list/) | [排序链表](./leetcode/L0148SortList.md) | 链表、排序 | 中等 |
 | 58     | [0021](https://leetcode.cn/problems/merge-two-sorted-lists/) | [合并两个有序链表](./leetcode/L0021MergeTwoLists.md) | 链表、排序 | 简单 |
+| 59     | [0023](https://leetcode.cn/problems/merge-k-sorted-lists/) | [合并 K 个升序链表](./leetcode/L0023MergeKLists.md) | 链表、排序 | 困难 |
 
 
 **参考**
