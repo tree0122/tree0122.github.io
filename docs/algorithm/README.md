@@ -68,6 +68,7 @@ sidebar: auto
 | 54     | [0328](https://leetcode.cn/problems/odd-even-linked-list/) | [奇偶链表](./leetcode/L0328OddEvenList.md) | 链表 | 中等 |
 | 55     | [0138](https://leetcode.cn/problems/copy-list-with-random-pointer/) | [复制带随机指针的链表](./leetcode/L0138CopyRandomList.md) | 链表 | 中等 |
 | 56     | [0061](https://leetcode.cn/problems/rotate-list/) | [旋转链表](./leetcode/L0061RotateRight.md) | 链表 | 中等 |
+| 57     | [0148](https://leetcode.cn/problems/sort-list/) | [排序链表](./leetcode/L0148SortList.md) | 链表、排序 | 中等 |
 
 
 **参考**
