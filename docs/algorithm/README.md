@@ -81,6 +81,7 @@ sidebar: auto
 | 67     | [0020](https://leetcode.cn/problems/valid-parentheses/) | [有效的括号](./leetcode/L0020IsValid.md) | 栈 | 简单 |
 | 68     | [224](https://leetcode.cn/problems/basic-calculator/) | [基本计算器](./leetcode/L0224Calculate.md) | 栈 | 困难 |
 | 69     | [0227](https://leetcode.cn/problems/basic-calculator-ii/) | [基本计算器 II](./leetcode/L0227Calculate2.md) | 栈 | 中等 |
+| 70     | [0394](https://leetcode.cn/problems/decode-string/) | [字符串解码](./leetcode/L0394DecodeString.md) | 栈 | 中等 |
 
 
 **参考**
