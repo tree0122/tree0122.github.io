@@ -79,7 +79,7 @@ sidebar: auto
 | 65     | [0445](https://leetcode.cn/problems/add-two-numbers-ii/) | [两数相加 II](./leetcode/L0445AddTwoNumbers2.md) | 链表、双指针 | 中等 |
 | 66     | [1047](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) | [删除字符串中的所有相邻重复项](./leetcode/L1047RemoveDuplicates.md) | 栈 | 简单 |
 | 67     | [0020](https://leetcode.cn/problems/valid-parentheses/) | [有效的括号](./leetcode/L0020IsValid.md) | 栈 | 简单 |
-| 68     | [224](https://leetcode.cn/problems/basic-calculator/) | [基本计算器](./leetcode/L0224Calculate.md) | 栈 | 困难 |
+| 68     | [0224](https://leetcode.cn/problems/basic-calculator/) | [基本计算器](./leetcode/L0224Calculate.md) | 栈 | 困难 |
 | 69     | [0227](https://leetcode.cn/problems/basic-calculator-ii/) | [基本计算器 II](./leetcode/L0227Calculate2.md) | 栈 | 中等 |
 | 70     | [0394](https://leetcode.cn/problems/decode-string/) | [字符串解码](./leetcode/L0394DecodeString.md) | 栈 | 中等 |
 | 71     | [0032](https://leetcode.cn/problems/longest-valid-parentheses/) | [最长有效括号](./leetcode/L0032LongestValidParentheses.md) | 栈 | 困难 |
