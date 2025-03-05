@@ -77,6 +77,7 @@ sidebar: auto
 | 63     | [0143](https://leetcode.cn/problems/reorder-list/) | [重排链表](./leetcode/L0143ReorderList.md) | 链表、双指针 | 中等 |
 | 64     | [0002](https://leetcode.cn/problems/add-two-numbers/) | [两数相加](./leetcode/L0002AddTwoNumbers.md) | 链表、双指针 | 中等 |
 | 65     | [0445](https://leetcode.cn/problems/add-two-numbers-ii/) | [两数相加 II](./leetcode/L0445AddTwoNumbers2.md) | 链表、双指针 | 中等 |
+| 66     | [1047](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string/) | [删除字符串中的所有相邻重复项](./leetcode/L1047RemoveDuplicates.md) | 栈 | 简单 |
 
 
 **参考**
