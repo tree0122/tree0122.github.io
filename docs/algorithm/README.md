@@ -84,6 +84,7 @@ sidebar: auto
 | 70     | [0394](https://leetcode.cn/problems/decode-string/) | [字符串解码](./leetcode/L0394DecodeString.md) | 栈 | 中等 |
 | 71     | [0032](https://leetcode.cn/problems/longest-valid-parentheses/) | [最长有效括号](./leetcode/L0032LongestValidParentheses.md) | 栈 | 困难 |
 | 72     | [0739](https://leetcode.cn/problems/daily-temperatures/) | [每日温度](./leetcode/L0739DailyTemperatures.md) | 栈 | 中等 |
+| 73     | [0071](https://leetcode.cn/problems/simplify-path/) | [简化路径](./leetcode/L0071SimplifyPath.md) | 栈 | 中等 |
 
 
 **参考**
