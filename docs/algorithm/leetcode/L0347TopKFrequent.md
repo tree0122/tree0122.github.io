@@ -27,9 +27,11 @@ public class L0347TopKFrequent {
             countMap.put(v, countMap.getOrDefault(v, 0) + 1);
         }
         for (int v : nums) {
-            q.offer(v);
-            if (q.size() > k) {
+            if (q.size() < k) {
+                q.offer(v);
+            }else if (countMap.get(v) < countMap.get(q.peek())) {
                 q.poll();
+                q.offer(v);
             }
         }
         for (int i = 0; i < k; i++) {
