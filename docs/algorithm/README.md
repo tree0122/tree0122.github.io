@@ -89,6 +89,7 @@ sidebar: auto
 | 75     | [0042](https://leetcode.cn/problems/trapping-rain-water/) | [接雨水](./leetcode/L0042Trap.md) | 单调栈 | 困难 |
 | 76     | [0085](https://leetcode.cn/problems/maximal-rectangle/) | [最大矩形](./leetcode/L0085MaximalRectangle.md) | 单调栈 | 困难 |
 | 77     | [0347](https://leetcode.cn/problems/top-k-frequent-elements/) | [前 K 个高频元素](./leetcode/L0347TopKFrequent.md) | 队列 | 中等 |
+| 78     | [0295](https://leetcode.cn/problems/find-median-from-data-stream/) | [数据流的中位数](./leetcode/L0295MedianFinder.md) | 队列 | 困难 |
 
 
 **参考**
