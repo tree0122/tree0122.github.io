@@ -64,7 +64,7 @@ public class L0042Trap {
             while (!stack.isEmpty() && height[stack.peek()] < height[i]) {
                 Integer cur = stack.pop();
                 int leftMax = stack.isEmpty() ? i - 1 : stack.peek();
-                res += (i - leftMax - 1) *(Math.min(height[i], height[leftMax]) * height[cur]);
+                res += (i - leftMax - 1) *(Math.min(height[i], height[leftMax]) - height[cur]);
             }
             stack.push(i);
         }
