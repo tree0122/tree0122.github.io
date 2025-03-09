@@ -91,6 +91,7 @@ sidebar: auto
 | 77     | [0347](https://leetcode.cn/problems/top-k-frequent-elements/) | [前 K 个高频元素](./leetcode/L0347TopKFrequent.md) | 队列 | 中等 |
 | 78     | [0295](https://leetcode.cn/problems/find-median-from-data-stream/) | [数据流的中位数](./leetcode/L0295MedianFinder.md) | 队列 | 困难 |
 | 79     | [0001](https://leetcode.cn/problems/two-sum/) | [两数之和](./leetcode/L0001TwoSum.md) | hash | 简单 |
+| 80     | [0041](https://leetcode.cn/problems/first-missing-positive/) | [缺失的第一个正数](./leetcode/L0041FirstMissingPositive.md) | hash | 困难 |
 
 
 **参考**
