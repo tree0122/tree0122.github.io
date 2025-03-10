@@ -94,6 +94,7 @@ sidebar: auto
 | 80     | [0041](https://leetcode.cn/problems/first-missing-positive/) | [缺失的第一个正数](./leetcode/L0041FirstMissingPositive.md) | hash | 困难 |
 | 81     | [0128](https://leetcode.cn/problems/longest-consecutive-sequence/) | [最长连续序列](./leetcode/L0128LongestConsecutive.md) | hash | 中等 |
 | 82     | [0242](https://leetcode.cn/problems/valid-anagram/) | [有效的字母异位词](./leetcode/L0242IsAnagram.md) | hash | 简单 |
+| 83     | [442](https://leetcode.cn/problems/find-all-duplicates-in-an-array/) | [数组中重复的数据](./leetcode/L0442FindDuplicates.md) | hash | 中等 |
 
 
 **参考**
