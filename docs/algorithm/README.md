@@ -101,6 +101,7 @@ sidebar: auto
 | 87     | [0557](https://leetcode.cn/problems/reverse-words-in-a-string-iii/) | [反转字符串中的单词 III](./leetcode/L0557ReverseWords.md) | str | 简单 |
 | 88     | [0151](https://leetcode.cn/problems/reverse-words-in-a-string/) | [反转字符串中的单词](./leetcode/L0151ReverseWords.md) | str | 简单 |
 | 89     | [0043](https://leetcode.cn/problems/multiply-strings/) | [字符串相乘](./leetcode/L0043Multiply.md) | str | 中等 |
+| 90     | [0014](https://leetcode.cn/problems/longest-common-prefix/) | [最长公共前缀](./leetcode/L0014LongestCommonPrefix.md) | str | 简单 |
 
 
 **参考**
