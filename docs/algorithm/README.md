@@ -96,6 +96,7 @@ sidebar: auto
 | 82     | [0242](https://leetcode.cn/problems/valid-anagram/) | [有效的字母异位词](./leetcode/L0242IsAnagram.md) | hash | 简单 |
 | 83     | [0442](https://leetcode.cn/problems/find-all-duplicates-in-an-array/) | [数组中重复的数据](./leetcode/L0442FindDuplicates.md) | hash | 中等 |
 | 84     | [LCR186](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [文物朝代判断](./leetcode/LCR186CheckDynasty.md) | hash | 简单 |
+| 85     | [0268](https://leetcode.cn/problems/missing-number/) | [丢失的数字](./leetcode/L0268MissingNumber.md) | hash | 简单 |
 
 
 **参考**
