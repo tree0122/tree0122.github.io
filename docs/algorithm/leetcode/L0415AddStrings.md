@@ -45,6 +45,28 @@ public class L0415AddStrings {
         }
         return String.valueOf(total);
     }
+
+    public String addStrings2(String num1, String num2) {
+        int[] res = new int[Math.max(num1.length(), num2.length()) + 1];
+        int carry = 0, i1 = num1.length() - 1, i2 = num2.length() - 1, j = res.length - 1;
+        while (carry > 0 || i1 >= 0 || i2 >= 0) {
+            int v1 = 0, v2 = 0;
+            if (i1 >= 0) {
+                v1 = num1.charAt(i1++) - '0';
+            }
+            if (i2 >= 0) {
+                v2 = num2.charAt(i2++) - '0';
+            }
+            int sum = v1 + v2 + carry;
+            carry = sum / 10;
+            res[j--] = sum % 10;
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = res[0] == 0 ? 1 : 0; i < res.length; i++) {
+            sb.append(res[i]);
+        }
+        return sb.toString();
+    }
     
 }
 ```
