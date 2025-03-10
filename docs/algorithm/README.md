@@ -103,6 +103,7 @@ sidebar: auto
 | 89     | [0043](https://leetcode.cn/problems/multiply-strings/) | [字符串相乘](./leetcode/L0043Multiply.md) | str | 中等 |
 | 90     | [0014](https://leetcode.cn/problems/longest-common-prefix/) | [最长公共前缀](./leetcode/L0014LongestCommonPrefix.md) | str | 简单 |
 | 91     | [0459](https://leetcode.cn/problems/repeated-substring-pattern/) | [重复的子字符串](./leetcode/L0459RepeatedSubstringPattern.md) | str、kmp | 困难 |
+| 92     | [0208](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](./leetcode/L0208Trie.md) | str、前缀树 | 中等 |
 
 
 **参考**
