@@ -97,6 +97,7 @@ sidebar: auto
 | 83     | [0442](https://leetcode.cn/problems/find-all-duplicates-in-an-array/) | [数组中重复的数据](./leetcode/L0442FindDuplicates.md) | hash | 中等 |
 | 84     | [LCR186](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [文物朝代判断](./leetcode/LCR186CheckDynasty.md) | hash | 简单 |
 | 85     | [0268](https://leetcode.cn/problems/missing-number/) | [丢失的数字](./leetcode/L0268MissingNumber.md) | hash | 简单 |
+| 86     | [0005](https://leetcode.cn/problems/longest-palindromic-substring/) | [最长回文子串](./leetcode/L0005LongestPalindrome.md) | str、dp | 困难 |
 
 
 **参考**
