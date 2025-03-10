@@ -29,30 +29,8 @@
 ## 代码
 ```java
 public class L0128LongestConsecutive {
-        
-    public int longestConsecutive(int[] nums) {
-        int res = 0;
-        HashMap<Integer, Integer> headMap = new HashMap<>();
-        HashMap<Integer, Integer> hsMap = new HashMap<>();
-        for (int v : nums) {
-            headMap.put(v, v);
-            hsMap.put(v, 1);
-        }
-        for (Map.Entry<Integer, Integer> entry : headMap.entrySet()) {
-            Integer n = entry.getKey();
-            Integer head = headMap.get(n - 1);
-            if (head != null) {
-                headMap.put(n, head);
-                hsMap.put(n - 1, hsMap.get(n - 1) + hsMap.remove(n));
-            }
-        }
-        for (Map.Entry<Integer, Integer> entry : hsMap.entrySet()) {
-            res = Math.max(res, entry.getValue());
-        }
-        return res;
-    }
 
-    public int longestConsecutiveBySet(int[] nums) {
+    public int longestConsecutive(int[] nums) {
         int res = 0;
         HashSet<Integer> set = new HashSet<>();
         for (int v : nums) {
