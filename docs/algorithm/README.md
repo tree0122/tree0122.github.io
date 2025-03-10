@@ -99,6 +99,7 @@ sidebar: auto
 | 85     | [0268](https://leetcode.cn/problems/missing-number/) | [丢失的数字](./leetcode/L0268MissingNumber.md) | hash | 简单 |
 | 86     | [0005](https://leetcode.cn/problems/longest-palindromic-substring/) | [最长回文子串](./leetcode/L0005LongestPalindrome.md) | str、dp | 困难 |
 | 87     | [0557](https://leetcode.cn/problems/reverse-words-in-a-string-iii/) | [反转字符串中的单词 III](./leetcode/L0557ReverseWords.md) | str | 简单 |
+| 88     | [0151](https://leetcode.cn/problems/reverse-words-in-a-string/) | [反转字符串中的单词](./leetcode/L0151ReverseWords.md) | str | 简单 |
 
 
 **参考**
