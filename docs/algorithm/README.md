@@ -100,6 +100,7 @@ sidebar: auto
 | 86     | [0005](https://leetcode.cn/problems/longest-palindromic-substring/) | [最长回文子串](./leetcode/L0005LongestPalindrome.md) | str、dp | 困难 |
 | 87     | [0557](https://leetcode.cn/problems/reverse-words-in-a-string-iii/) | [反转字符串中的单词 III](./leetcode/L0557ReverseWords.md) | str | 简单 |
 | 88     | [0151](https://leetcode.cn/problems/reverse-words-in-a-string/) | [反转字符串中的单词](./leetcode/L0151ReverseWords.md) | str | 简单 |
+| 89     | [0043](https://leetcode.cn/problems/multiply-strings/) | [字符串相乘](./leetcode/L0043Multiply.md) | str | 中等 |
 
 
 **参考**
