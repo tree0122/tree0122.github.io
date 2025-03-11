@@ -115,6 +115,7 @@ sidebar: auto
 | 101    | [0124](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) | [二叉树中的最大路径和](./leetcode/L0124MaxPathSum.md) | 栈、树 | 困难 |
 | 102    | [0101](https://leetcode.cn/problems/symmetric-tree/) | [对称二叉树](./leetcode/L0101IsSymmetric.md) | 栈、树 | 简单 |
 | 103    | [0112](https://leetcode.cn/problems/path-sum/) | [路径总和](./leetcode/L0112HasPathSum.md) | 树 | 简单 |
+| 104    | [0113](https://leetcode.cn/problems/path-sum-ii/) | [路径总和 II](./leetcode/L0113PathSum.md) | 树 | 简单 |
 
 
 **参考**
