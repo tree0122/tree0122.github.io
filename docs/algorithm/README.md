@@ -106,6 +106,7 @@ sidebar: auto
 | 92     | [0208](https://leetcode.cn/problems/implement-trie-prefix-tree/) | [实现 Trie (前缀树)](./leetcode/L0208Trie.md) | str、前缀树 | 中等 |
 | 93     | [0440](https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order/) | [字典序的第K小数字](./leetcode/L0440FindKthNumber.md) | str、前缀树 | 困难 |
 | 94     | [0144](https://leetcode.cn/problems/binary-tree-preorder-traversal/) | [二叉树的前序遍历](./leetcode/L0144PreorderTraversal.md) | 栈、树 | 中等 |
+| 95     | [0094](https://leetcode.cn/problems/binary-tree-inorder-traversal/) | [二叉树的中序遍历](./leetcode/L0094InorderTraversal.md) | 栈、树 | 中等 |
 
 
 **参考**
