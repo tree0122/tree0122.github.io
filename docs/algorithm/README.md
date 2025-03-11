@@ -118,6 +118,7 @@ sidebar: auto
 | 104    | [0113](https://leetcode.cn/problems/path-sum-ii/) | [路径总和 II](./leetcode/L0113PathSum.md) | 树 | 中等 |
 | 105    | [0236](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/) | [二叉树的最近公共祖先](./leetcode/L0236LowestCommonAncestor.md) | 树 | 中等 |
 | 106    | [0199](https://leetcode.cn/problems/binary-tree-right-side-view/) | [二叉树的右视图](./leetcode/L0199RightSideView.md) | 树、层遍历 | 中等 |
+| 107    | [0226](https://leetcode.cn/problems/invert-binary-tree/) | [翻转二叉树](./leetcode/L0226InvertTree.md) | 树、遍历 | 简单 |
 
 
 **参考**
