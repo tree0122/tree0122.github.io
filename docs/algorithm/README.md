@@ -113,6 +113,7 @@ sidebar: auto
 | 99     | [0104](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | [二叉树的最大深度](./leetcode/L0104MaxDepth.md) | 栈、树 | 简单 |
 | 100    | [0111](https://leetcode.cn/problems/minimum-depth-of-binary-tree/) | [二叉树的最小深度](./leetcode/L0111MinDepth.md) | 栈、树 | 简单 |
 | 101    | [0124](https://leetcode.cn/problems/binary-tree-maximum-path-sum/) | [二叉树中的最大路径和](./leetcode/L0124MaxPathSum.md) | 栈、树 | 困难 |
+| 102    | [0101](https://leetcode.cn/problems/symmetric-tree/) | [对称二叉树](./leetcode/L0101IsSymmetric.md) | 栈、树 | 简单 |
 
 
 **参考**
