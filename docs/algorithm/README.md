@@ -110,6 +110,7 @@ sidebar: auto
 | 96     | [0145](https://leetcode.cn/problems/binary-tree-postorder-traversal/) | [二叉树的后序遍历](./leetcode/L0145PostorderTraversal.md) | 栈、树 | 中等 |
 | 97     | [0102](https://leetcode.cn/problems/binary-tree-level-order-traversal/) | [二叉树的层序遍历](./leetcode/L0102LevelOrder.md) | 栈、树 | 中等 |
 | 98     | [0103](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/) | [二叉树的锯齿形层序遍历](./leetcode/L0103ZigzagLevelOrder.md) | 栈、树 | 中等 |
+| 99     | [0104](https://leetcode.cn/problems/maximum-depth-of-binary-tree/) | [二叉树的最大深度](./leetcode/L0104MaxDepth.md) | 栈、树 | 中等 |
 
 
 **参考**
