@@ -123,6 +123,7 @@ sidebar: auto
 | 109    | [0572](https://leetcode.cn/problems/subtree-of-another-tree/) | [另一棵树的子树](./leetcode/L0572IsSubtree.md) | 树、遍历 | 中等 |
 | 110    | [0100](https://leetcode.cn/problems/same-tree/) | [相同的树](./leetcode/L0100IsSameTree.md) | 树、遍历 | 简单 |
 | 111    | [0297](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [二叉树的序列化与反序列化](./leetcode/L0297Codec.md) | 树、遍历 | 困难 |
+| 112    | [0114](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) | [二叉树展开为链表](./leetcode/L0114Flatten.md) | 树、遍历 | 中等 |
 
 
 **参考**
