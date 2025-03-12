@@ -125,6 +125,7 @@ sidebar: auto
 | 111    | [0297](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/) | [二叉树的序列化与反序列化](./leetcode/L0297Codec.md) | 树、遍历 | 困难 |
 | 112    | [0114](https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/) | [二叉树展开为链表](./leetcode/L0114Flatten.md) | 树、遍历 | 中等 |
 | 113    | [0105](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [从前序与中序遍历序列构造二叉树](./leetcode/L0105BuildTree.md) | 搜索树、遍历 | 中等 |
+| 114    | [0106](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [从中序与后序遍历序列构造二叉树](./leetcode/L0106BuildTree2.md) | 搜索树、遍历 | 中等 |
 
 
 **参考**
