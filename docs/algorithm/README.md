@@ -128,6 +128,7 @@ sidebar: auto
 | 114    | [0106](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [从中序与后序遍历序列构造二叉树](./leetcode/L0106BuildTree2.md) | 搜索树、遍历 | 中等 |
 | 115    | [0098](https://leetcode.cn/problems/validate-binary-search-tree/) | [验证二叉搜索树](./leetcode/L0098IsValidBST.md) | 搜索树、遍历 | 中等 |
 | 116    | [0450](https://leetcode.cn/problems/delete-node-in-a-bst/) | [删除二叉搜索树中的节点](./leetcode/L0450DeleteNode.md) | 搜索树、遍历 | 中等 |
+| 117    | [LCR174](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [二叉搜索树的第k大节点](./leetcode/LCR174FindTargetNode.md) | 搜索树、遍历 | 中等 |
 
 
 **参考**
