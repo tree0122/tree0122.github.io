@@ -132,6 +132,7 @@ sidebar: auto
 | 118    | [0230](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/) | [二叉搜索树中第 K 小的元素](./leetcode/L0230KthSmallest.md) | 搜索树、遍历 | 中等 |
 | 119    | [0426](https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [将二叉搜索树转化为排序的双向链表](./leetcode/L0426TreeToDoublyList.md) | 搜索树、遍历 | 中等 |
 | 120    | [0110](https://leetcode.cn/problems/balanced-binary-tree/) | [平衡二叉树](./leetcode/L0110IsBalanced.md) | 搜索树、遍历 | 中等 |
+| 121    | [0200](https://leetcode.cn/problems/number-of-islands/) | [岛屿数量](./leetcode/L0200NumIslands.md) | dfs | 中等 |
 
 
 **参考**
