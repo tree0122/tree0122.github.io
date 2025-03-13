@@ -135,6 +135,7 @@ sidebar: auto
 | 121    | [0200](https://leetcode.cn/problems/number-of-islands/) | [岛屿数量](./leetcode/L0200NumIslands.md) | dfs | 中等 |
 | 122    | [0695](https://leetcode.cn/problems/max-area-of-island/) | [岛屿的最大面积](./leetcode/L0695MaxAreaOfIsland.md) | dfs | 中等 |
 | 123    | [0129](https://leetcode.cn/problems/sum-root-to-leaf-numbers/) | [求根节点到叶节点数字之和](./leetcode/L0129SumNumbers.md) | dfs | 中等 |
+| 124    | [0543](https://leetcode.cn/problems/diameter-of-binary-tree/) | [二叉树的直径](./leetcode/L0543DiameterOfBinaryTree.md) | dfs | 简单 |
 
 
 **参考**
