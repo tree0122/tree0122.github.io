@@ -140,6 +140,7 @@ sidebar: auto
 | 126    | [0322](https://leetcode.cn/problems/coin-change/) | [零钱兑换](./leetcode/L0332CoinChange.md) | 广度、dp | 中等 |
 | 127    | [0207](https://leetcode.cn/problems/course-schedule/) | [课程表](./leetcode/L0207CanFinish.md) | 广度、图 | 中等 |
 | 128    | [0210](https://leetcode.cn/problems/course-schedule-ii/) | [课程表 II](./leetcode/L0210FindOrder.md) | 广度、图 | 中等 |
+| 129    | [0078](https://leetcode.cn/problems/subsets/) | [子集](./leetcode/L0078Subsets.md) | 回溯、dfs | 中等 |
 
 
 **参考**
