@@ -43,9 +43,9 @@ class L0207CanFinish {
             indegree[v[0]]++;
         }
         LinkedList<Integer> q = new LinkedList<>();
-        for (int d : indegree) {
-            if (d == 0) {
-                q.offer(d);
+        for (int i = 0; i < indegree.length; i++) {
+            if (indegree[i] == 0) {
+                q.offer(i);
             }
         }
         while (!q.isEmpty()) {
