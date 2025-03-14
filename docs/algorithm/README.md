@@ -142,6 +142,7 @@ sidebar: auto
 | 128    | [0210](https://leetcode.cn/problems/course-schedule-ii/) | [课程表 II](./leetcode/L0210FindOrder.md) | 广度、图 | 中等 |
 | 129    | [0078](https://leetcode.cn/problems/subsets/) | [子集](./leetcode/L0078Subsets.md) | 回溯、dfs | 中等 |
 | 130    | [0221](https://leetcode.cn/problems/maximal-square/) | [最大正方形](./leetcode/L0221MaximalSquare.md) | dp | 中等 |
+| 131    | [0560](https://leetcode.cn/problems/subarray-sum-equals-k/) | [和为 K 的子数组](./leetcode/L0560SubarraySum.md) | dp | 中等 |
 
 
 **参考**
