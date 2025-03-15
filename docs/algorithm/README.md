@@ -151,6 +151,7 @@ sidebar: auto
 | 137    | [0037](https://leetcode.cn/problems/sudoku-solver/) | [解数独](./leetcode/L0037SolveSudoku.md) | 回溯 | 困难 |
 | 138    | [0022](https://leetcode.cn/problems/generate-parentheses/) | [括号生成](./leetcode/L0022GenerateParenthesis.md) | 回溯 | 中等 |
 | 139    | [0039](https://leetcode.cn/problems/combination-sum/) | [组合总和](./leetcode/L0039CombinationSum.md) | 回溯 | 中等 |
+| 140    | [0040](https://leetcode.cn/problems/combination-sum-ii/) | [组合总和 II](./leetcode/L0040CombinationSum2.md) | 回溯 | 中等 |
 
 
 **参考**
