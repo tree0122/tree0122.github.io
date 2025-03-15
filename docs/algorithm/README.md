@@ -148,6 +148,7 @@ sidebar: auto
 | 134    | [0053](https://leetcode.cn/problems/maximum-subarray/) | [最大子数组和](./leetcode/L0053MaxSubArray.md) | dp | 中等 |
 | 135    | [0046](https://leetcode.cn/problems/permutations/) | [全排列](./leetcode/L0046Permute.md) | 回溯 | 中等 |
 | 136    | [0047](https://leetcode.cn/problems/permutations-ii/) | [全排列 II](./leetcode/L0047PermuteUnique.md) | 回溯 | 中等 |
+| 137    | [0037](https://leetcode.cn/problems/sudoku-solver/) | [解数独](./leetcode/L0037SolveSudoku.md) | 回溯 | 困难 |
 
 
 **参考**
