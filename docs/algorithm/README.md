@@ -144,6 +144,7 @@ sidebar: auto
 | 130    | [0221](https://leetcode.cn/problems/maximal-square/) | [最大正方形](./leetcode/L0221MaximalSquare.md) | dp | 中等 |
 | 131    | [0560](https://leetcode.cn/problems/subarray-sum-equals-k/) | [和为 K 的子数组](./leetcode/L0560SubarraySum.md) | dp | 中等 |
 | 132    | [0024](https://leetcode.cn/problems/swap-nodes-in-pairs/) | [两两交换链表中的节点](./leetcode/L0024SwapPairs.md) | 链表 | 中等 |
+| 133    | [LCR187](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [破冰游戏](./leetcode/LCR187IceBreakingGame.md) | 链表、约瑟夫环 | 中等 |
 
 
 **参考**
