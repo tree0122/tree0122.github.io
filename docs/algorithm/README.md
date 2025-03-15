@@ -152,6 +152,7 @@ sidebar: auto
 | 138    | [0022](https://leetcode.cn/problems/generate-parentheses/) | [括号生成](./leetcode/L0022GenerateParenthesis.md) | 回溯 | 中等 |
 | 139    | [0039](https://leetcode.cn/problems/combination-sum/) | [组合总和](./leetcode/L0039CombinationSum.md) | 回溯 | 中等 |
 | 140    | [0040](https://leetcode.cn/problems/combination-sum-ii/) | [组合总和 II](./leetcode/L0040CombinationSum2.md) | 回溯 | 中等 |
+| 141    | [0093](https://leetcode.cn/problems/restore-ip-addresses/) | [复原 IP 地址](./leetcode/L0093RestoreIpAddresses.md) | 回溯 | 中等 |
 
 
 **参考**
