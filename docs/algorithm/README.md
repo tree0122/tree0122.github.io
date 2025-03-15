@@ -147,6 +147,7 @@ sidebar: auto
 | 133    | [LCR187](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) | [破冰游戏](./leetcode/LCR187IceBreakingGame.md) | 链表、约瑟夫环 | 中等 |
 | 134    | [0053](https://leetcode.cn/problems/maximum-subarray/) | [最大子数组和](./leetcode/L0053MaxSubArray.md) | dp | 中等 |
 | 135    | [0046](https://leetcode.cn/problems/permutations/) | [全排列](./leetcode/L0046Permute.md) | dp | 中等 |
+| 136    | [0047](https://leetcode.cn/problems/permutations-ii/) | [全排列 II](./leetcode/L0047PermuteUnique.md) | dp | 中等 |
 
 
 **参考**
