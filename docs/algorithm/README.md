@@ -163,6 +163,7 @@ sidebar: auto
 | 149    | [0670](https://leetcode.cn/problems/maximum-swap/) | [最大交换](./leetcode/L0670MaximumSwap.md) | 贪心 | 中等 |
 | 150    | [0191](https://leetcode.cn/problems/number-of-1-bits/) | [位1的个数](./leetcode/L0191HammingWeight.md) | 位运算 | 简单 |
 | 151    | [0121](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | [买卖股票的最佳时机](./leetcode/L0121MaxProfit.md) | dp | 简单 |
+| 152    | [0518](https://leetcode.cn/problems/coin-change-ii/) | [零钱兑换 II](./leetcode/L0518Change.md) | dp | 中等 |
 
 
 **参考**
