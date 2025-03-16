@@ -154,6 +154,7 @@ sidebar: auto
 | 140    | [0040](https://leetcode.cn/problems/combination-sum-ii/) | [组合总和 II](./leetcode/L0040CombinationSum2.md) | 回溯 | 中等 |
 | 141    | [0093](https://leetcode.cn/problems/restore-ip-addresses/) | [复原 IP 地址](./leetcode/L0093RestoreIpAddresses.md) | 回溯 | 中等 |
 | 142    | [0079](https://leetcode.cn/problems/word-search/) | [单词搜索](./leetcode/L0079Exist.md) | 回溯 | 中等 |
+| 143    | [0679](https://leetcode.cn/problems/24-game/) | [24 点游戏](./leetcode/L0679JudgePoint24.md) | 回溯 | 困难 |
 
 
 **参考**
