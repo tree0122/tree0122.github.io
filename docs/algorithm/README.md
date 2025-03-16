@@ -156,6 +156,7 @@ sidebar: auto
 | 142    | [0079](https://leetcode.cn/problems/word-search/) | [单词搜索](./leetcode/L0079Exist.md) | 回溯 | 中等 |
 | 143    | [0679](https://leetcode.cn/problems/24-game/) | [24 点游戏](./leetcode/L0679JudgePoint24.md) | 回溯 | 困难 |
 | 144    | [0122](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) | [买卖股票的最佳时机 II](./leetcode/L0122MaxProfit.md) | 贪心 | 中等 |
+| 145    | [0055](https://leetcode.cn/problems/jump-game/) | [跳跃游戏](./leetcode/L0055CanJump.md) | 贪心 | 中等 |
 
 
 **参考**
