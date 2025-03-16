@@ -161,6 +161,7 @@ sidebar: auto
 | 147    | [0135](https://leetcode.cn/problems/candy/) | [分发糖果](./leetcode/L0135Candy.md) | 贪心 | 困难 |
 | 148    | [0134](https://leetcode.cn/problems/gas-station/) | [加油站](./leetcode/L0134CanCompleteCircuit.md) | 贪心 | 中等 |
 | 149    | [0670](https://leetcode.cn/problems/maximum-swap/) | [最大交换](./leetcode/L0670MaximumSwap.md) | 贪心 | 中等 |
+| 150    | [0191](https://leetcode.cn/problems/number-of-1-bits/) | [位1的个数](./leetcode/L0191HammingWeight.md) | 位运算 | 简单 |
 
 
 **参考**
