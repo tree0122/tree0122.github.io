@@ -168,6 +168,7 @@ sidebar: auto
 | 154    | [1143](https://leetcode.cn/problems/longest-common-subsequence/) | [最长公共子序列](./leetcode/L1143LongestCommonSubsequence.md) | dp | 中等 |
 | 155    | [0064](https://leetcode.cn/problems/minimum-path-sum/) | [最小路径和](./leetcode/L0064MinPathSum.md) | dp | 中等 |
 | 156    | [0072](https://leetcode.cn/problems/edit-distance/) | [编辑距离](./leetcode/L0072MinDistance.md) | dp | 中等 |
+| 157    | [0062](https://leetcode.cn/problems/unique-paths/) | [不同路径](./leetcode/L0062UniquePaths.md) | dp | 中等 |
 
 
 **参考**
