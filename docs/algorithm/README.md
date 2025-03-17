@@ -170,6 +170,7 @@ sidebar: auto
 | 156    | [0072](https://leetcode.cn/problems/edit-distance/) | [编辑距离](./leetcode/L0072MinDistance.md) | dp | 中等 |
 | 157    | [0062](https://leetcode.cn/problems/unique-paths/) | [不同路径](./leetcode/L0062UniquePaths.md) | dp | 中等 |
 | 158    | [0063](https://leetcode.cn/problems/unique-paths-ii/) | [不同路径 II](./leetcode/L0063UniquePathsWithObstacles.md) | dp | 中等 |
+| 159    | [0152](https://leetcode.cn/problems/maximum-product-subarray/) | [乘积最大子数组](./leetcode/L0152MaxProduct.md) | dp | 中等 |
 
 
 **参考**
