@@ -164,7 +164,8 @@ sidebar: auto
 | 150    | [0191](https://leetcode.cn/problems/number-of-1-bits/) | [位1的个数](./leetcode/L0191HammingWeight.md) | 位运算 | 简单 |
 | 151    | [0121](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | [买卖股票的最佳时机](./leetcode/L0121MaxProfit.md) | dp | 简单 |
 | 152    | [0518](https://leetcode.cn/problems/coin-change-ii/) | [零钱兑换 II](./leetcode/L0518Change.md) | dp | 中等 |
-| 153    | [0300](https://leetcode.cn/problems/longest-increasing-subsequence/) | [最长递增子序列](./leetcode/L0300lengthOfLIS.md) | dp、贪心 | 中等 |
+| 153    | [0300](https://leetcode.cn/problems/longest-increasing-subsequence/) | [最长递增子序列](./leetcode/L0300LengthOfLIS.md) | dp、贪心 | 中等 |
+| 154    | [1143](https://leetcode.cn/problems/longest-common-subsequence/) | [最长公共子序列](./leetcode/L1143LongestCommonSubsequence.md) | dp | 中等 |
 
 
 **参考**

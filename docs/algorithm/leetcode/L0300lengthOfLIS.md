@@ -24,7 +24,7 @@
 
 ## 代码
 ```java
-class L0300lengthOfLIS {
+class L0300LengthOfLIS {
 
    public int lengthOfLIS(int[] nums) {
         int len = 0;
