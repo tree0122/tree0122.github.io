@@ -166,6 +166,7 @@ sidebar: auto
 | 152    | [0518](https://leetcode.cn/problems/coin-change-ii/) | [零钱兑换 II](./leetcode/L0518Change.md) | dp | 中等 |
 | 153    | [0300](https://leetcode.cn/problems/longest-increasing-subsequence/) | [最长递增子序列](./leetcode/L0300LengthOfLIS.md) | dp、贪心 | 中等 |
 | 154    | [1143](https://leetcode.cn/problems/longest-common-subsequence/) | [最长公共子序列](./leetcode/L1143LongestCommonSubsequence.md) | dp | 中等 |
+| 155    | [0064](https://leetcode.cn/problems/minimum-path-sum/) | [最小路径和](./leetcode/L0064MinPathSum.md) | dp | 中等 |
 
 
 **参考**
