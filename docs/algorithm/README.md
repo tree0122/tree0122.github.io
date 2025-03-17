@@ -172,6 +172,7 @@ sidebar: auto
 | 158    | [0063](https://leetcode.cn/problems/unique-paths-ii/) | [不同路径 II](./leetcode/L0063UniquePathsWithObstacles.md) | dp | 中等 |
 | 159    | [0152](https://leetcode.cn/problems/maximum-product-subarray/) | [乘积最大子数组](./leetcode/L0152MaxProduct.md) | dp | 中等 |
 | 160    | [0198](https://leetcode.cn/problems/house-robber/) | [打家劫舍](./leetcode/L0198Rob.md) | dp | 中等 |
+| 161    | [0213](https://leetcode.cn/problems/house-robber-ii/) | [打家劫舍 II](./leetcode/L0213Rob.md) | dp | 中等 |
 
 
 **参考**
