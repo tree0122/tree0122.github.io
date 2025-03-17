@@ -39,6 +39,18 @@ public class L0032LongestValidParentheses {
         }
         return maxLen;
     }
+
+    public int longestValidParentheses1(String s) {
+        int len = 0;
+        int[] d = new int[s.length() + 1];
+        for (int i = 2, pre = 0; i < d.length; i++) {
+            if (s.charAt(i - 1) == ')' && s.charAt(pre = (i - d[i - 1] - 2)) == '(') {
+                d[i] = (d[i - 1] + 2) + d[pre];
+                len = Math.max(len, d[i]);
+            }
+        }
+        return len;
+    }
     
 }
 ```
