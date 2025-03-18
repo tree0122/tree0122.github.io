@@ -174,6 +174,7 @@ sidebar: auto
 | 160    | [0198](https://leetcode.cn/problems/house-robber/) | [打家劫舍](./leetcode/L0198Rob.md) | dp | 中等 |
 | 161    | [0213](https://leetcode.cn/problems/house-robber-ii/) | [打家劫舍 II](./leetcode/L0213Rob.md) | dp | 中等 |
 | 162    | [0091](https://leetcode.cn/problems/decode-ways/) | [解码方法](./leetcode/L0091NumDecodings.md) | dp | 中等 |
+| 163    | [0010](https://leetcode.cn/problems/regular-expression-matching/) | [正则表达式匹配](./leetcode/L0010IsMatch.md) | dp | 困难 |
 
 
 **参考**
