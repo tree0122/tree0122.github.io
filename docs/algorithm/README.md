@@ -176,6 +176,7 @@ sidebar: auto
 | 162    | [0091](https://leetcode.cn/problems/decode-ways/) | [解码方法](./leetcode/L0091NumDecodings.md) | dp | 中等 |
 | 163    | [0010](https://leetcode.cn/problems/regular-expression-matching/) | [正则表达式匹配](./leetcode/L0010IsMatch.md) | dp | 困难 |
 | 164    | [0678](https://leetcode.cn/problems/valid-parenthesis-string/) | [有效的括号字符串](./leetcode/L0678CheckValidString.md) | dp | 中等 |
+| 165    | [0045](https://leetcode.cn/problems/jump-game-ii/) | [跳跃游戏 II](./leetcode/L0045Jump.md) | 贪心 | 中等 |
 
 
 **参考**
