@@ -177,6 +177,7 @@ sidebar: auto
 | 163    | [0010](https://leetcode.cn/problems/regular-expression-matching/) | [正则表达式匹配](./leetcode/L0010IsMatch.md) | dp | 困难 |
 | 164    | [0678](https://leetcode.cn/problems/valid-parenthesis-string/) | [有效的括号字符串](./leetcode/L0678CheckValidString.md) | dp | 中等 |
 | 165    | [0045](https://leetcode.cn/problems/jump-game-ii/) | [跳跃游戏 II](./leetcode/L0045Jump.md) | 贪心 | 中等 |
+| 166    | [0673](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/) | [最长递增子序列的个数](./leetcode/L0673FindNumberOfLIS.md) | dp | 中等 |
 
 
 **参考**
