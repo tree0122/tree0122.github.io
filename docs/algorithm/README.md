@@ -180,6 +180,7 @@ sidebar: auto
 | 166    | [0673](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/) | [最长递增子序列的个数](./leetcode/L0673FindNumberOfLIS.md) | dp | 中等 |
 | 167    | [0139](https://leetcode.cn/problems/word-break/) | [单词拆分](./leetcode/L0139WordBreak.md) | dp | 中等 |
 | 168    | [0044](https://leetcode.cn/problems/wildcard-matching/) | [通配符匹配](./leetcode/L0044IsMatch.md) | dp | 困难 |
+| 169    | [0120](https://leetcode.cn/problems/triangle/) | [三角形最小路径和](./leetcode/L0120MinimumTotal.md) | dp | 中等 |
 
 
 **参考**
