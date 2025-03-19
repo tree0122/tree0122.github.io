@@ -182,6 +182,7 @@ sidebar: auto
 | 168    | [0044](https://leetcode.cn/problems/wildcard-matching/) | [通配符匹配](./leetcode/L0044IsMatch.md) | dp | 困难 |
 | 169    | [0120](https://leetcode.cn/problems/triangle/) | [三角形最小路径和](./leetcode/L0120MinimumTotal.md) | dp | 中等 |
 | 170    | [0096](https://leetcode.cn/problems/unique-binary-search-trees/) | [不同的二叉搜索树](./leetcode/L0096NumTrees.md) | dp | 中等 |
+| 171    | [0887](https://leetcode.cn/problems/super-egg-drop/) | [鸡蛋掉落](./leetcode/L0887SuperEggDrop.md) | dp | 困难 |
 
 
 **参考**
