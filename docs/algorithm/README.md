@@ -179,6 +179,7 @@ sidebar: auto
 | 165    | [0045](https://leetcode.cn/problems/jump-game-ii/) | [跳跃游戏 II](./leetcode/L0045Jump.md) | 贪心 | 中等 |
 | 166    | [0673](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/) | [最长递增子序列的个数](./leetcode/L0673FindNumberOfLIS.md) | dp | 中等 |
 | 167    | [0139](https://leetcode.cn/problems/word-break/) | [单词拆分](./leetcode/L0139WordBreak.md) | dp | 中等 |
+| 168    | [0044](https://leetcode.cn/problems/wildcard-matching/) | [通配符匹配](./leetcode/L0044IsMatch.md) | dp | 困难 |
 
 
 **参考**
