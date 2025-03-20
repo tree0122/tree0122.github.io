@@ -185,6 +185,7 @@ sidebar: auto
 | 171    | [0887](https://leetcode.cn/problems/super-egg-drop/) | [鸡蛋掉落](./leetcode/L0887SuperEggDrop.md) | dp | 困难 |
 | 172    | [0097](https://leetcode.cn/problems/interleaving-string/) | [交错字符串](./leetcode/L0097IsInterleave.md) | dp | 中等 |
 | 173    | [0516](https://leetcode.cn/problems/longest-palindromic-subsequence/) | [最长回文子序列](./leetcode/L0516LongestPalindromeSubseq.md) | dp | 中等 |
+| 174    | [0329](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) | [矩阵中的最长递增路径](./leetcode/L0329LongestIncreasingPath.md) | dp | 困难 |
 
 
 **参考**
