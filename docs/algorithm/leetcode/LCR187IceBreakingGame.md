@@ -24,6 +24,7 @@
 ```java
 class LCR187IceBreakingGame {
 
+    // 只关心最终活着那个人的序号变化。最终活着的人编号的反推
     // f(n,m) = [f(n−1,m)+m] %n
     public int iceBreakingGame(int num, int target) {
         if (num == 1) {
