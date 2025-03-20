@@ -186,6 +186,7 @@ sidebar: auto
 | 172    | [0097](https://leetcode.cn/problems/interleaving-string/) | [交错字符串](./leetcode/L0097IsInterleave.md) | dp | 中等 |
 | 173    | [0516](https://leetcode.cn/problems/longest-palindromic-subsequence/) | [最长回文子序列](./leetcode/L0516LongestPalindromeSubseq.md) | dp | 中等 |
 | 174    | [0329](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/) | [矩阵中的最长递增路径](./leetcode/L0329LongestIncreasingPath.md) | dp | 困难 |
+| 175    | [0007](https://leetcode.cn/problems/reverse-integer/) | [整数反转](./leetcode/L0007Reverse.md) | 数学 | 中等 |
 
 
 **参考**
