@@ -24,6 +24,7 @@
 ```java
 class LCR187IceBreakingGame {
 
+    // f(n,m) = [f(n−1,m)+m] %n
     public int iceBreakingGame(int num, int target) {
         if (num == 1) {
             return 0;
@@ -33,9 +34,9 @@ class LCR187IceBreakingGame {
     }
 
     public int iceBreakingGameBetter(int num, int target) {
-        int res = 0;
+        int res = 0; // 最终活着的初始位置
         for (int i = 2; i <= num; i++) {
-            res = (res + target) % i;
+            res = (res + target) % i; // 每次循环右移
         }
         return res;
     }
