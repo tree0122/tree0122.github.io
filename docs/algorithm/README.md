@@ -189,6 +189,7 @@ sidebar: auto
 | 175    | [0007](https://leetcode.cn/problems/reverse-integer/) | [整数反转](./leetcode/L0007Reverse.md) | 数学 | 中等 |
 | 176    | [0009](https://leetcode.cn/problems/palindrome-number/) | [回文数](./leetcode/L0009IsPalindrome.md) | 数学 | 简单 |
 | 177    | [0168](https://leetcode.cn/problems/excel-sheet-column-title/) | [Excel表列名称](./leetcode/L0168ConvertToTitle.md) | 数学 | 简单 |
+| 178    | [0008](https://leetcode.cn/problems/string-to-integer-atoi/) | [字符串转换整数 (atoi)](./leetcode/L0008MyAtoi.md) | 数学 | 中等 |
 
 
 **参考**
