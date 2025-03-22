@@ -26,6 +26,16 @@
 ```java
 class L0053MaxSubArray {
 
+    // f(i)=max{f(i−1)+nums[i], nums[i]}
+    public int maxSubArrayBetter(int[] nums) {
+        int res = nums[0], preSum = 0; // preSum为nums[0,i]以i结尾的最大子数组和
+        for (int i = 0; i < nums.length; i++) {
+            preSum = Math.max(preSum + nums[i], nums[i]);
+            res = Math.max(res, preSum);
+        }
+        return res;
+    }
+
     public int maxSubArray(int[] nums) {
         int res = Integer.MIN_VALUE;
         int[] d = new int[nums.length];
