@@ -195,6 +195,7 @@ sidebar: auto
 | 181    | [0086](https://leetcode.cn/problems/partition-list/) | [分隔链表](./leetcode/L0086Partition.md) | 链表 | 中等 |
 | 182    | [0031](https://leetcode.cn/problems/next-permutation/) | [下一个排列](./leetcode/L0031NextPermutation.md) | 思维锻炼 | 中等 |
 | 183    | [0556](https://leetcode.cn/problems/next-greater-element-iii/) | [下一个更大元素 III](./leetcode/L0556NextGreaterElement.md) | 思维锻炼 | 中等 |
+| 184    | [470](https://leetcode.cn/problems/implement-rand10-using-rand7/) | [用 Rand7() 实现 Rand10()](./leetcode/L0470Rand10.md) | 思维锻炼 | 中等 |
 
 
 **参考**
