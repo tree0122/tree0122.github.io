@@ -194,6 +194,7 @@ sidebar: auto
 | 180    | [0468](https://leetcode.cn/problems/validate-ip-address/) | [验证IP地址](./leetcode/L0468ValidIPAddress.md) | 字符串 | 中等 |
 | 181    | [0086](https://leetcode.cn/problems/partition-list/) | [分隔链表](./leetcode/L0086Partition.md) | 链表 | 中等 |
 | 182    | [0031](https://leetcode.cn/problems/next-permutation/) | [下一个排列](./leetcode/L0031NextPermutation.md) | 思维锻炼 | 中等 |
+| 183    | [0556](https://leetcode.cn/problems/next-greater-element-iii/) | [下一个更大元素 III](./leetcode/L0556NextGreaterElement.md) | 思维锻炼 | 中等 |
 
 
 **参考**
