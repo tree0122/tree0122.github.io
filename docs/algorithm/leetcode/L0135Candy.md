@@ -48,7 +48,7 @@ class L0135Candy {
         }
         for (int i = ratings.length - 2; i >= 0; i--) {
             if (ratings[i] > ratings[i + 1]) {
-                ratings[i] = Math.max(ratings[i], ratings[i + 1] + 1);
+                sweets[i] = Math.max(sweets[i], sweets[i + 1] + 1);
             }
         }
         for (int v : sweets) {
