@@ -98,14 +98,14 @@ class L0679JudgePoint24 {
                 }
                 newCards.remove(newCards.size() - 1);
 
-                if (Math.abs(v2) < 1e-6) {
+                if (Math.abs(v2) >= 1e-6) {
                     newCards.add(v1 / v2); //除
                     if (doJudgePoint24(newCards)) {
                         return true;
                     }
                     newCards.remove(newCards.size() - 1);
                 }
-                if (Math.abs(v1) < 1e-6) {
+                if (Math.abs(v1) >= 1e-6) {
                     newCards.add(v2 / v1); //被除
                     if (doJudgePoint24(newCards)) {
                         return true;
