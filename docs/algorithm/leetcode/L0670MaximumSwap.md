@@ -30,26 +30,25 @@
 class L0670MaximumSwap {
 
     // 每一位数字应该不小于所有排它后面的数字，否则找最大的且排最后面的数字与之交换
-    public int maximumSwap(int num) {
+     public int maximumSwap(int num) {
         StringBuilder sb = new StringBuilder().append(num);
-        int ascIdx = -1, maxIdx = 0, i = 0;
-        while (i < sb.length() && ascIdx == - 1) {
-            if (i + 1 < sb.length() && sb.charAt(i) < sb.charAt(i + 1)) {
-                ascIdx = i;
-            }
-            i++;
+        int minIdx = 0, // minIdx为num[0,i]中单调递降中最小的
+                j = sb.length() - 1;
+        while (minIdx + 1 <= j && sb.charAt(minIdx) >= sb.charAt(minIdx + 1)) {
+            minIdx++;
         }
-        if (ascIdx == -1) {
+        if (minIdx == j) {
             return num;
         }
-        while (i < sb.length()) {
-            if (sb.charAt(i) > sb.charAt(maxIdx)) {
-                maxIdx = i;
+        int maxIdx = minIdx + 1; // maxIdx为num(minIdx, j]中最大数字
+        while (j > minIdx) {
+            if (sb.charAt(j) > sb.charAt(maxIdx)) {
+                maxIdx = j;
             }
-            i++;
+            j--;
         }
-        char c = sb.charAt(ascIdx);
-        sb.setCharAt(ascIdx, sb.charAt(maxIdx));
+        char c = sb.charAt(minIdx);
+        sb.setCharAt(minIdx, sb.charAt(maxIdx));
         sb.setCharAt(maxIdx, c);
         return Integer.parseInt(sb.toString());
     }
