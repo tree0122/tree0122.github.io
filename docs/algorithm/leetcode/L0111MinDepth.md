@@ -29,10 +29,10 @@ class L0111MinDepth {
         }
         int left = minDepth(root.left);
         int right = minDepth(root.right);
-        if (left == 0) {
+        if (left == 0) { // 左子树为空，取右子树+1
             return right + 1;
         }
-        if (right == 0) {
+        if (right == 0) { // 右子树为空，取左子树+1
             return left + 1;
         }
         return Math.min(left, right) + 1;
