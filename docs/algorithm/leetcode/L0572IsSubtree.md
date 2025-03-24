@@ -34,8 +34,8 @@ class L0572IsSubtree {
         if (p == null || q == null || p.v != q.v) {
             return false;
         }
-        return isSubtree(p.left, q.left)
-                && isSubtree(p.right, q.right);
+        return isSameTree(p.left, q.left)
+                && isSameTree(p.right, q.right);
     }
 
     private class TreeNode {
