@@ -22,6 +22,7 @@ public class L0347TopKFrequent {
     public int[] topKFrequent(int[] nums, int k) {
         int[] res = new int[k];
         HashMap<Integer, Integer> countMap = new HashMap<>();
+        // 小根堆，保持k个元素
         PriorityQueue<Integer> q = new PriorityQueue<>(Comparator.comparingInt(countMap::get));
         for (int v : nums) {
             countMap.put(v, countMap.getOrDefault(v, 0) + 1);
@@ -29,7 +30,7 @@ public class L0347TopKFrequent {
         for (int v : nums) {
             if (q.size() < k) {
                 q.offer(v);
-            }else if (countMap.get(v) < countMap.get(q.peek())) {
+            }else if (countMap.get(v) > countMap.get(q.peek())) { // 堆顶元素的数量 < 当前元素的数量
                 q.poll();
                 q.offer(v);
             }
