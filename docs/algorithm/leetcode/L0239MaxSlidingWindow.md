@@ -28,11 +28,11 @@ public class L0239MaxSlidingWindow {
             while (!q.isEmpty() && nums[q.peekLast()] <= nums[right]) {
                 q.pollLast();
             }
-            q.offerLast(right);
-            if (right >= k - 1) {
+            q.offerLast(right++); // right++后为窗口的右边（不包在窗口）
+            if (right - k >= 0) { // right-k 为窗口的left（左边索引，left包在窗口）
                 res[i++] = nums[q.peekFirst()];
             }
-            if (right - k + 1 > q.peekFirst()) {
+            if (right - k > q.peekFirst()) {
                 q.pollFirst();
             }
         }
