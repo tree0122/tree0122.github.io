@@ -43,7 +43,7 @@ public class L0041FirstMissingPositive {
             }
         }
         for (int i = 0; i < nums.length; i++) {
-            if (i != i + 1) {
+            if (num[i] != i + 1) {
                 return i + 1;
             }
         }
