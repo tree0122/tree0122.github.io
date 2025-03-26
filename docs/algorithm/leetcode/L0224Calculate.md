@@ -43,6 +43,9 @@ public class L0224Calculate {
         LinkedList<Integer> stack = new LinkedList<>();
         while (i < s.length() && s.charAt(i) != ')') {
             char c = s.charAt(i++);
+            if (c == ' ') {
+                continue;
+            }
             if (c >= '0' && c <= '9') {
                 v = v * 10 + (c - '0');
             } else if (c != '(') {
