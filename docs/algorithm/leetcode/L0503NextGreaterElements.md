@@ -47,35 +47,6 @@ public class L0503NextGreaterElements {
         }
         return res;
     }
-
-    public int[] nextGreaterElements(int[] nums) {
-        int[] res = new int[nums.length];
-        LinkedList<List<Integer>> stack = new LinkedList<>();
-        for (int i = 0; i < nums.length; i++) {
-            while (!stack.isEmpty() && nums[stack.peek().get(0)] < nums[i]) {
-                for (Integer dx : stack.pop()) {
-                    res[dx] = nums[i];
-                }
-            }
-            if (stack.isEmpty() || nums[stack.peek().get(0)] != nums[i]) {
-                List<Integer> list = new ArrayList<>();
-                list.add(i);
-                stack.push(list);
-            } else {
-                stack.peek().add(i);
-            }
-        }
-        while (stack.size() > 1) {
-            List<Integer> i = stack.pop();
-            for (Integer dx : i) {
-                res[dx] = nums[stack.peek().get(0)];
-            }
-        }
-        for (Integer dx : stack.pop()) {
-            res[dx] = -1;
-        }
-        return res;
-    }
     
 }
 ```
