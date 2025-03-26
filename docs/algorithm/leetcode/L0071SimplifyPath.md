@@ -101,6 +101,26 @@ public class L0071SimplifyPath {
         }
         return stack.isEmpty() ? "/" : stack.stream().collect(Collectors.joining("/", "/", ""));
     }
+
+    public String simplifyPath2(String path) {
+        LinkedList<String> stack = new LinkedList<>();
+        int i = 0;
+        while (i < path.length()) {
+            while (i < path.length() && path.charAt(i) == '/') {
+                i++;
+            }
+            int j = i;
+            while (i < path.length() && path.charAt(i) != '/') {
+                i++;
+            }
+            if (i - j == 2 && path.charAt(j) == '.' && path.charAt(j + 1) == '.') {
+                stack.pop();
+            } else if (i - j > 2 || path.charAt(i) != '.') {
+                stack.push(path.substring(j, i));
+            }
+        }
+        return stack.isEmpty() ? "/" : stack.stream().collect(Collectors.joining("/", "/", ""));
+    }
     
 }
 ```
