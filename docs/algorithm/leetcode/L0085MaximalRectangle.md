@@ -26,18 +26,19 @@ public class L0085MaximalRectangle {
         LinkedList<Integer> minStack = new LinkedList<>();
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
-                h[j] = matrix[i][j] == 0 ? 0 : h[j] + 1;
+                h[j] = matrix[i][j] == '0' ? 0 : h[j] + 1;
                 while (!minStack.isEmpty() && h[minStack.peek()] > h[j]) {
                     int cur = minStack.pop();
-                    int leftMin = minStack.isEmpty() ? - 1 : minStack.peek();
+                    int leftMin = minStack.isEmpty() ? cur - 1 : minStack.peek();
                     res = Math.max(res, (j - leftMin - 1) * h[cur]);
                 }
                 minStack.push(j);
             }
             while (!minStack.isEmpty()) {
                 int cur = minStack.pop();
-                int leftMin = minStack.isEmpty() ? -1 : minStack.peek();
-                res = Math.max(res, (h.length - leftMin - 1) * h[cur]);
+                int leftMin = minStack.isEmpty() ? cur -1 : minStack.peek();
+                int rightMin = cur + 1;
+                res = Math.max(res, (rightMin - leftMin - 1) * h[cur]);
             }
         }
         return res;
