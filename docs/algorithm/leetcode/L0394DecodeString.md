@@ -89,12 +89,7 @@ public class L0394DecodeString {
                 i = Integer.parseInt(next[1]);
             }
         }
-        StringBuilder sb = new StringBuilder();
-        while (n > 0) {
-            sb.append(res);
-            n--;
-        }
-        return new String[]{sb.toString(), String.valueOf(i + 1)};
+        return new String[]{res.toString(), String.valueOf(i + 1)};
     }
     
 }
