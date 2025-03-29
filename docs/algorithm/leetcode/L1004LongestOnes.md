@@ -27,24 +27,8 @@
 ## 代码
 ```java
 public class L1004LongestOnes {
-        
-    public int longestOnes(int[] nums, int k) {
-        int left = 0, right = 0, maxLen = 0, zeroesInWin = 0;
-        while (right < nums.length) {
-            if (nums[right++] == 0) {
-                zeroesInWin++;
-            }
-            if (zeroesInWin > k) {
-                if (nums[left++] == 0) {
-                    zeroesInWin--;
-                }
-            }
-            maxLen = Math.max(maxLen, right - left);
-        }
-        return maxLen;
-    }
 
-    public int longestOnes1(int[] nums, int k) {
+    public int longestOnes(int[] nums, int k) {
         int left = 0, right = 0, maxLen = 0, zeroInWin = 0;
         while (right < nums.length) {
             while (zeroInWin <= k) {
