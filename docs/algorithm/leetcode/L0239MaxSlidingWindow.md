@@ -21,19 +21,19 @@
 public class L0239MaxSlidingWindow {
         
     public int[] maxSlidingWindow(int[] nums, int k) {
-        int[] res = new int[k];
-        LinkedList<Integer> q = new LinkedList<>();
-        int right = 0, i = 0;
+        int[] res = new int[nums.length - k + 1];
+        LinkedList<Integer> q = new LinkedList<>(); // 递减队列
+        int i = 0, right = 0;
         while (right < nums.length) {
-            while (!q.isEmpty() && nums[q.peekLast()] <= nums[right]) {
+            while (!q.isEmpty() && nums[q.peekLast()] <= nums[right]) { // 队列末尾对应值 不大于 当前值时，剔除末尾
                 q.pollLast();
             }
-            q.offerLast(right++); // right++后为窗口的右边（不包在窗口）
-            if (right - k >= 0) { // right-k 为窗口的left（左边索引，left包在窗口）
-                res[i++] = nums[q.peekFirst()];
-            }
-            if (right - k > q.peekFirst()) {
+            q.offer(right++);
+            if (right - k > q.peekFirst()) { // 队列头，在窗口left左边，剔除队列头
                 q.pollFirst();
+            }
+            if (right - k >= 0) { // 队列处理超过k个nums元素时，nums[R-k, R)
+                res[i++] = nums[q.peekFirst()];
             }
         }
         return res;
