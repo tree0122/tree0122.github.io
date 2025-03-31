@@ -33,38 +33,36 @@ public class L0076MinWindow {
         
     public String minWindow(String s, String t) {
         HashMap<Character, Integer> tMap = new HashMap<>();
-        HashMap<Character, Integer> winMap = new HashMap<>();
-        for (int i = 0; i < t.length(); i++) {
-            tMap.put(s.charAt(i), tMap.getOrDefault(s.charAt(i), 0) + 1);
+        HashMap<Character, Integer> winMap = new HashMap<>(); // s[L,R)范围内的子串中字符统计
+        for (int i = 0; i < t.length(); i++) { // 统计t中的字符和其对应的数量
+            char c = t.charAt(i);
+            tMap.put(c, tMap.getOrDefault(c, 0) + 1);
         }
-        int left = 0, right = 0, tM = 0, start = 0, end = 0, len = s.length() + 1;
+        int tCh = 0, len = s.length() + 1, start = 0, left = 0, right = 0; // tCh表示s[L,R)内满足t中某个字符的个数
         while (right < s.length()) {
-            char c = s.charAt(right++);
-            Integer cSize = tMap.get(c);
-            if (cSize == null) {
+            char rightCh = s.charAt(right++);
+            Integer tRightCn = tMap.get(rightCh);
+            if (tRightCn == null) { // t中没有的字符不用考虑
                 continue;
             }
-            if (winMap.put(c, winMap.getOrDefault(c, 0) + 1) + 1 == cSize) {
-                tM++;
+            int rCn = winMap.getOrDefault(rightCh, 0);
+            winMap.put(rightCh, rCn + 1);
+            if (rCn + 1 == tRightCn) { // 当窗口s[L,R)中某个字符首次满足t中对应字符是，tCh++。窗口内ch个数可能超过t中对应个数
+                tCh++;
             }
-
-            while (tM == tMap.size()) {
-                if (right - left < len) {
-                    len = right - left;
+            while (tCh == tMap.size()) { // 当s[L,R)刚满足t时，开始考虑剔除L字符
+                if (len < right - left) {
                     start = left;
-                    end = right;
+                    left = right - left;
                 }
-                char cLeft = s.charAt(left);
-                if (tMap.containsKey(cLeft)) {
-                    Integer leftCount = winMap.get(cLeft);
-                    if (leftCount == tMap.get(cLeft)) {
-                        tM--;
-                    }
-                    winMap.put(cLeft, leftCount - 1);
+                char leftCh = s.charAt(left++); // 开始剔除L字符
+                Integer tLeftCn = tMap.get(leftCh); // t中没有的字符不考虑
+                if (tLeftCn != null && tLeftCn == winMap.put(leftCh, winMap.get(leftCh) - 1)) {
+                    tCh--;
                 }
             }
         }
-        return len == s.length() + 1 ? "" : s.substring(start, end);
+        return len == s.length() + 1 ? "" : s.substring(start, start + len);
     }
     
 }
