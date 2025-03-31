@@ -33,48 +33,25 @@
 public class L0862ShortestSubarray {
         
     public int shortestSubarray(int[] nums, int k) {
-        int minLen = nums.length + 1, sum = 0, left = 0, right = 0;
-        int[][] h = new int[nums.length][2];
-        h[h.length - 1][0] = nums[h.length - 1];
-        h[h.length - 1][1] = h.length - 1;
-        for (int i = nums.length - 2; i >= 0; i--) {
-            if (h[i + 1][0] > 0) {
-                h[i][0] = nums[i] + h[i + 1][0];
-                h[i][1] = h[i + 1][1];
-            } else {
-                h[i][0] = nums[i];
-                h[i][1] = i;
-            }
-        }
-        while (right < nums.length) {
-            sum += h[right][0];
-            right = h[right][1] + 1;
-            while (sum >= k) {
-                minLen = Math.min(minLen, right - left);
-                sum -= nums[left++];
-            }
-        }
-        return minLen == nums.length + 1 ? -1 : minLen;
-    }
-
-    public int shortestSubarrayByWindow(int[] nums, int k) {
-        int minLen = nums.length + 1;
-        int[] preSum = new int[nums.length + 1];
-        for (int i = 0; i < nums.length; i++) {
+        int n = nums.length, ans = n + 1;
+        int[] preSum = new int[n + 1];
+        LinkedList<Integer> q = new LinkedList<>();
+        for (int i = 0; i < n; i++) { // preSum[i], 是nums[0,i)的累加和
             preSum[i + 1] = preSum[i] + nums[i];
         }
-        LinkedList<Integer> q = new LinkedList<>();
-        for (int i = 0; i <= nums.length; i++) {
+        for (int i = 0; i < preSum.length; i++) {
             int curSum = preSum[i];
-            while (!q.isEmpty() && curSum - preSum[q.peekFirst()] >= k) {
-                minLen = Math.min(minLen, i - q.pollFirst());
+            while (!q.isEmpty() && (curSum - preSum[q.peekFirst()] >= k)) { // nums[q.first, i)的累加和是否 >= k
+                ans = Math.min(ans, i - q.pollFirst());
             }
+            // preSum[q.last]>=preSum[i]，表示若有满足要求后续索引xIdx，即nums[q.last, xIdx)的累加和 >=k,
+            // 那么num[i, xIdx)的累加和必 >=k 且数组长度更多。所以要剔除q.last
             while (!q.isEmpty() && preSum[q.peekLast()] >= curSum) {
                 q.pollLast();
             }
-            q.offerLast(i);
+            q.offer(i); // q最终成为一个递增队列
         }
-        return minLen == nums.length + 1 ? -1 : minLen;
+        return ans == n + 1 ? -1 : ans;
     }
     
 }
