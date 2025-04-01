@@ -55,42 +55,44 @@ public class L0004FindMedianSortedArrays {
         }
     }
 
-    public double better(int[] nums1, int[] nums2) {
+    public double findMedianSortedArraysBetter(int[] nums1, int[] nums2) {
         if (nums1.length > nums2.length) {
-            return better(nums2, nums1);
+            return findMedianSortedArraysBetter(nums2, nums1);
         }
-        int m = nums1.length, n = nums2.length, left = 0, right = m;
-        while (left <= right) {
-            int i = (left + right) / 2; // nums1中的位置
-            int j = (m + n + 1) / 2 - i; // nums2中的位置
-            if (i != 0 && j != n && nums1[i - 1] > nums2[j]) { // i 需要增大
-                right = i - 1;
-            } else if (j != 0 && i != m && nums1[i] < nums2[j - 1]) { // i 需要减小
-                left = i + 1;
-            } else {// max(nums1[i-1], nums2[j-1]) <= min(nums1[i], nums2[j])
-                int maxLeft = 0;
-                if (i == 0) {
-                    maxLeft = nums2[j - 1];
-                } else if (j == 0) {
-                    maxLeft = nums1[i - 1];
-                } else {
-                    maxLeft = Math.max(nums1[i - 1], nums2[j - 1]);
-                }
-                if ((m + n) % 2 == 1) {
-                    return maxLeft;
-                }
-                int minRight = 0;
-                if (i == m) {
-                    minRight = nums2[j];
-                } else if (j == n) {
-                    minRight = nums1[i];
-                } else {
-                    minRight = Math.min(nums1[i], nums2[j]);
-                }
-                return (maxLeft + minRight) / 2.0;
+        int left = 0, right = nums1.length, kth = (nums1.length + nums2.length + 1) / 2, m2 = 0, m1 = 0;
+        boolean even = (nums1.length + nums2.length) % 2 == 1;
+        while (left < right) {
+            m1 = (left + right) / 2;
+            m2 = kth - m1;
+            if (nums1[m1] < nums2[m2 - 1]) { // nums1[m1]是kth之前的元素，故剔除nums1[left,m1]
+                left = m1 + 1;
+            } else { // // nums1[m1]是kth之后的元素， 故剔除num1(m1,right]
+                right = m1;
             }
         }
-        return 0;
+        m1 = left;
+        m2 = kth - m1;
+        int c1 = 0;
+        if (m1 == 0) {
+            c1 = nums2[m2 - 1];
+        } else if (m2 == 0) {
+            c1 = nums1[m1 - 1];
+        } else {
+            c1 = Math.max(nums1[m1 - 1], nums2[m2 - 1]);
+        }
+        if (even) {
+            return c1;
+        }
+
+        int c2 = 0;
+        if (m1 == nums1.length) {
+            c2 = nums2[m2];
+        } else if (m2 == nums2.length) {
+            c2 = nums1[m1];
+        } else {
+            c2 = Math.min(nums1[m1], nums2[m2]);
+        }
+        return (c1 + c2) / 2.0;
     }
     
 }
