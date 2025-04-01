@@ -48,6 +48,9 @@ public class L0015ThreeSum {
                 while (left < right && right < nums.length - 1 && nums[right] == nums[right + 1]) {
                     right--;
                 }
+                if(left == right) {
+                    break;
+                }
                 if (nums[i] + nums[left] + nums[right] < 0) {
                     left++;
                 } else if (nums[i] + nums[left] + nums[right] > 0) {
