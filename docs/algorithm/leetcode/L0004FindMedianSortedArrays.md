@@ -59,38 +59,38 @@ public class L0004FindMedianSortedArrays {
         if (nums1.length > nums2.length) {
             return findMedianSortedArraysBetter(nums2, nums1);
         }
-        int left = 0, right = nums1.length, kth = (nums1.length + nums2.length + 1) / 2, m2 = 0, m1 = 0;
+        int iLeft = 0, iRight = nums1.length, kth = (nums1.length + nums2.length + 1) / 2, i = 0, j = 0;
         boolean even = (nums1.length + nums2.length) % 2 == 1;
-        while (left < right) {
-            m1 = (left + right) / 2;
-            m2 = kth - m1;
-            if (nums1[m1] < nums2[m2 - 1]) { // nums1[m1]是kth之前的元素，故剔除nums1[left,m1]
-                left = m1 + 1;
-            } else { // // nums1[m1]是kth之后的元素， 故剔除num1(m1,right]
-                right = m1;
+        while (iLeft < iRight) { // 目标：在nums1中找到合适的i（对应j），达到nums1[i-1]<=nums2[j] && nums2[j-1]<=nums1[i]
+            i = (iLeft + iRight) / 2;
+            j = kth - i;
+            if (nums1[i] < nums2[j - 1]) { // nums2[j-1]>nums1[i], 不合预期 且nums[i]太小，故要增加
+                iLeft = i + 1;
+            } else { // nums2[j-1]<=nums1[i], 此时i是符合的可能最右位置，需接着校验是否是最右位置
+                iRight = i;
             }
         }
-        m1 = left;
-        m2 = kth - m1;
+        i = iLeft;
+        j = kth - i;
         int c1 = 0;
-        if (m1 == 0) {
-            c1 = nums2[m2 - 1];
-        } else if (m2 == 0) {
-            c1 = nums1[m1 - 1];
+        if (i == 0) {
+            c1 = nums2[j - 1];
+        } else if (j == 0) {
+            c1 = nums1[i - 1];
         } else {
-            c1 = Math.max(nums1[m1 - 1], nums2[m2 - 1]);
+            c1 = Math.max(nums1[i - 1], nums2[j - 1]);
         }
         if (even) {
             return c1;
         }
 
         int c2 = 0;
-        if (m1 == nums1.length) {
-            c2 = nums2[m2];
-        } else if (m2 == nums2.length) {
-            c2 = nums1[m1];
+        if (i == nums1.length) {
+            c2 = nums2[j];
+        } else if (j == nums2.length) {
+            c2 = nums1[i];
         } else {
-            c2 = Math.min(nums1[m1], nums2[m2]);
+            c2 = Math.min(nums1[i], nums2[j]);
         }
         return (c1 + c2) / 2.0;
     }
