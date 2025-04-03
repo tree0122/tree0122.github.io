@@ -58,7 +58,7 @@ class L0165CompareVersion {
                 v2 = Integer.parseInt(a2[i]);
             }
             if (v1 != v2) {
-                return v1 - v2;
+                return v1 - v2 > 0 ? 1 : -1;
             }
             i++;
         }
@@ -76,7 +76,7 @@ class L0165CompareVersion {
                 v2 = v2 * 10 + (version2.charAt(j++) - '0');
             }
             if (v1 != v2) {
-                return v1 - v2;
+                return v1 - v2 ? 1 : -1;
             }
         }
         return 0;
