@@ -41,7 +41,7 @@
 class L0008MyAtoi {
 
     public int myAtoi(String s) {
-        double res = 0; // 有int的溢出可能
+        long res = 0; // 有int的溢出可能
         int i = 0, op = 1;
         while (i < s.length() && s.charAt(i) == ' ') { // 剔除开始的空格字符
             i++;
@@ -83,10 +83,10 @@ class L0008MyAtoi {
 
         char c = 0;
         while (i < s.length() && (c = s.charAt(i)) >= '0' && c <= '9') {
-            res = res * 10 + (c - '0');
+            res = res * 10 + (c - '0') * op;
             i++;
         }
-        if (op > 1) {
+        if (op > 0) {
             return (int) Math.min(res, Integer.MAX_VALUE);
         }
         return (int) Math.max(res, Integer.MIN_VALUE);
