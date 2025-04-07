@@ -47,7 +47,9 @@ class L0329LongestIncreasingPath {
         if (i < 0 || i >= m.length || j < 0 || j >= m[0].length || d[i][j] != 0 || d[i][j] <= pre) {
             return 0;
         }
-
+        if (d[i][j] != 0) {
+            return d[i][j];
+        }
         d[i][j] = 1;
         int left = increasingPathDfs(m, i, j - 1, d, m[i][j]);
         d[i][j] = Math.max(left + 1, d[i][j]);
