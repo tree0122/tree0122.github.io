@@ -51,7 +51,8 @@ class L0044IsMatch {
                 if (s.charAt(i - 1) == p.charAt(j - 1) || p.charAt(j - 1) == '?') {
                     d[i][j] = d[i - 1][j - 1];
                 } else if (p.charAt(j - 1) == '*') {
-                    d[i][j] = d[i][j - 1] || d[i - 1][j];
+                    d[i][j] = d[i][j - 1]  // '*'不匹配
+                            || d[i - 1][j];// '*'匹配一次或多次
                 }
             }
         }
