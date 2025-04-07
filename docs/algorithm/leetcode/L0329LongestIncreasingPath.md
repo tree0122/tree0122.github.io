@@ -44,7 +44,7 @@ class L0329LongestIncreasingPath {
     }
 
     private int increasingPathDfs(int[][] m, int i, int j, int[][] d, int pre) {
-        if (i < 0 || i >= m.length || j < 0 || j >= m[0].length || d[i][j] != 0 || d[i][j] <= pre) {
+        if (i < 0 || i >= m.length || j < 0 || j >= m[0].length || d[i][j] != 0 || m[i][j] <= pre) {
             return 0;
         }
         if (d[i][j] != 0) {
