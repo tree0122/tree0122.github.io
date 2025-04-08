@@ -47,9 +47,38 @@ class L0670MaximumSwap {
             }
             j--;
         }
+        j = minIdx;
+        int i = 0;
+        while (i < j) {
+            if (sb.charAt(i) < sb.charAt(maxIdx)) { // mixIdx为num[0, j)中最小数字
+                minIdx = i;
+                break;
+            }
+            i++;
+        }
         char c = sb.charAt(minIdx);
         sb.setCharAt(minIdx, sb.charAt(maxIdx));
         sb.setCharAt(maxIdx, c);
+        return Integer.parseInt(sb.toString());
+    }
+
+    public int maximumSwapBetter(int num) {
+        StringBuilder sb = new StringBuilder().append(num);
+        int p = -1, q = -1, mIdx = sb.length() - 1;
+        for (int i = sb.length() - 2; i >= 0; i--) {
+            if (sb.charAt(i) > sb.charAt(mIdx)) { // sb[i] 是目前最大数字
+                mIdx = i;
+            } else if (sb.charAt(i) < sb.charAt(mIdx)) { // sb[i]右边有比它大的数字，更新p、q
+                p = i;
+                q = mIdx;
+            }
+        }
+        if (p == -1) { // p == -1，表示sb单调递减
+            return num;
+        }
+        char c = sb.charAt(p);
+        sb.setCharAt(p, sb.charAt(q));
+        sb.setCharAt(q, c);
         return Integer.parseInt(sb.toString());
     }
 
