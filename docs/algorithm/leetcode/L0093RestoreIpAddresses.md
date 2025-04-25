@@ -44,7 +44,7 @@ class L0093RestoreIpAddresses {
             }
             return;
         }
-        for (int j = i; j < i + 3 && j < s.length(); j++) {
+        for (int j = i; j < i + 3 && j <= s.length(); j++) {
             if (s.charAt(i) == '0' && j > i) {
                 return;
             }
