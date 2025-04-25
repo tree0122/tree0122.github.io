@@ -41,29 +41,32 @@ candidates 中的每个数字在每个组合中只能使用 一次 。
 class L0040CombinationSum2 {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        Arrays.sort(candidates);
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
-        Arrays.sort(candidates);
-        doCombinationSum2(candidates, target, 0, path, ans);
+        boolean[] visit = new boolean[candidates.length];
+        combinationSum2(candidates, target, path, ans, 0, visit);
         return ans;
     }
 
-    private void doCombinationSum2(int[] candidates, int target, int i, List<Integer> path, List<List<Integer>> ans) {
-        if (i == candidates.length) {
+    private void combinationSum2(int[] a, int t, List<Integer> path, List<List<Integer>> ret, int i, boolean[] visit) {
+        if (t == 0) {
+            ret.add(new ArrayList<>(path));
             return;
         }
-        if (target == 0) {
-            ans.add(new ArrayList<>(path));
+        if (i == a.length) {
             return;
         }
-        doCombinationSum2(candidates, target, i + 1, path, ans);
-        if (target >= candidates[i]) {
-            if (i > 0 && candidates[i] == candidates[i - 1]) {
+        combinationSum2(a, t, path, ret, i + 1, visit);
+        if (t >= a[i]) {
+            if (i > 0 && a[i] == a[i - 1] && !visit[i - 1]) {
                 return;
             }
-            path.add(candidates[i]);
-            doCombinationSum2(candidates, target - candidates[i], i + 1, path, ans);
+            path.add(a[i]);
+            visit[i] = true;
+            combinationSum2(a, t - a[i], path, ret, i + 1, visit);
             path.remove(path.size() - 1);
+            visit[i] = false;
         }
     }
 
