@@ -29,21 +29,20 @@
 public class L1004LongestOnes {
 
     public int longestOnes(int[] nums, int k) {
-        int left = 0, right = 0, maxLen = 0, zeroInWin = 0;
-        while (right < nums.length) {
-            while (zeroInWin <= k) {
-                if (nums[right++] == 0) {
-                    zeroInWin++;
-                }
+        int left = 0, right = 0, n = nums.length, len = 0;
+        while (right < n) {
+            if (nums[right++] == 0) {
+                k--;
             }
-            maxLen = Math.max(maxLen, right - left);
-            while (zeroInWin > k) {
+            while (k == 0) {
                 if (nums[left++] == 0) {
-                    zeroInWin--;
+                    k++;
                 }
             }
+
+            len = Math.max(len, right - left);
         }
-        return maxLen;
+        return len;
     }
     
 }
