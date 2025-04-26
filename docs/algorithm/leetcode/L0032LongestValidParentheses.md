@@ -44,7 +44,7 @@ public class L0032LongestValidParentheses {
         int len = 0;
         int[] d = new int[s.length() + 1];
         for (int i = 2, pre = 0; i < d.length; i++) {
-            if (s.charAt(i - 1) == ')' && s.charAt(pre = (i - d[i - 1] - 2)) == '(') {
+            if (s.charAt(i - 1) == ')'  && (pre = (i - 2 - d[i - 1])) >=0 && s.charAt(pre)== '(') {
                 d[i] = (d[i - 1] + 2) + d[pre];
                 len = Math.max(len, d[i]);
             }
